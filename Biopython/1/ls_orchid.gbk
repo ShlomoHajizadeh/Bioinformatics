@@ -1,0 +1,50 @@
+LOCUS       MW241575                 628 bp    DNA     linear   PLN 21-JUN-2021
+DEFINITION  UNVERIFIED: Ludisia discolor isolate LS rbcL-like gene, partial
+            sequence; chloroplast.
+ACCESSION   MW241575
+VERSION     MW241575.1
+KEYWORDS    UNVERIFIED.
+SOURCE      chloroplast Ludisia discolor
+  ORGANISM  Ludisia discolor
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; Liliopsida; Asparagales; Orchidaceae;
+            Orchidoideae; Cranichideae; Goodyerinae; Ludisia.
+REFERENCE   1  (bases 1 to 628)
+  AUTHORS   Ho,V.T., Tran,T.K.P., Vu,T.T.T. and Widiarsih,S.
+  TITLE     Application of DNA barcode to identify jewel orchid population in
+            Vietnam
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 628)
+  AUTHORS   Ho,V.T., Tran,T.K.P., Vu,T.T.T. and Widiarsih,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-NOV-2020) Faculty of Biotechnology, Ho Chi Minh city
+            University of Food Industry, 140 Le Trong Tan, Tan Phu district, Ho
+            Chi Minh city 700000, Vietnam
+COMMENT     GenBank staff is unable to verify sequence and/or annotation
+            provided by the submitter.
+            
+            ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..628
+                     /organism="Ludisia discolor"
+                     /organelle="plastid:chloroplast"
+                     /mol_type="genomic DNA"
+                     /isolate="LS"
+                     /db_xref="taxon:60011"
+     misc_feature    <1..>628
+                     /note="similar to rbcL"
+ORIGIN      
+        1 ggtgaaataa aaggacatta cttgaatgca actgcgggta catgtgaaga aatgatcaaa
+       61 agagcggtat ttgccagaga attgggagtt cctatcgtaa tgcacgacta cttaactggg
+      121 ggattcaccg caaatactag cttggctcat tattgccgcg acaacggtct acttcttcac
+      181 atccatcgcg caatgcatgc agttattgat agacagaaaa atcatggtat gcattttcgt
+      241 gtactagcta aagcattacg tatgtctggt ggagatcata ttcacggtgg tacagtagta
+      301 ggtaaactgg agggggaacg tgatatgact ttgggttttg ttgatttatt acgtgatgat
+      361 tatattgaaa aagatagaaa tcgtggtatt tatttcactc aagactgggt ctctatgcca
+      421 ggtgttctgc ccgtggcttc agggggtatt catgtttggc atatgcctgc cctaaccgaa
+      481 atctttgggg atgattccgt actacagttc ggtggaggaa ctttaggaca cccctgggga
+      541 aatgcacccg gtgcagtagc taatcgggtg gctttagaag catgtgtaca agctcgtaat
+      601 gagggacgtg atcttgctcg tgaaggta
+//
