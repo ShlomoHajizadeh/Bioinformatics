@@ -1,5 +1,1 @@
-#Bioinformatics
-
-
-Data Science
-Bioinformatics - Biology, Data Science, Math, Statistics and Math
+#Bioinformatics - Biology, Data Science, Math, Statistics and Math
