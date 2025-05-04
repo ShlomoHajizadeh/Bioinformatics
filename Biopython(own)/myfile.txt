@@ -1,4 +1,4 @@
-Biopython 1.85 multiple sequence alignment
+Biopython 1.81 multiple sequence alignment
 
 
 mm9.chr10                           TCATAGGTATTTATTTTTAAATATGGTTTGCTTTATGGCTAGAACACACC
