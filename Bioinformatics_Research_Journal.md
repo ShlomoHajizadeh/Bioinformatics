@@ -40020,3 +40020,10 @@ Unlike global alignment, the Smith-Waterman algorithm finds the optimal local al
 The Kimura 2-parameter model distinguishes between transitions (mutations between purines or between pyrimidines) and transversions (purine-to-pyrimidine mutations), assigning them different rate parameters (alpha and beta).
 
 ---
+
+## Codon Usage Bias (Molecular Biology)
+**Date:** June 15, 2025
+
+Codon usage bias refers to differences in the frequency of occurrence of synonymous codons in coding DNA. It varies between organisms and is highly correlated with tRNA abundance and translation efficiency.
+
+---
