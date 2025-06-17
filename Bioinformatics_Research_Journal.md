@@ -11229,3 +11229,10 @@ The Needleman-Wunsch algorithm is a dynamic programming algorithm used for globa
 Predicted Local Distance Difference Test (pLDDT) is the per-residue confidence metric computed by AlphaFold2. Scores >= 90 indicate very high confidence (accurate side chains), while scores < 50 indicate disordered regions.
 
 ---
+
+## Hidden Markov Models (HMMs) (Sequence Analysis)
+**Date:** June 17, 2025
+
+HMMs are statistical models representing probability distributions over sequences. In bioinformatics, profile HMMs are widely used by tools like HMMER to build highly sensitive sequence profiles for protein family classification.
+
+---
