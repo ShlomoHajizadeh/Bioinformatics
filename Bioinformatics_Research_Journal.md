@@ -58241,3 +58241,10 @@ The Jukes-Cantor model assumes equal mutation rates among all nucleotides (A, C,
 Gasteiger-Marsili charges are calculated iteratively based on orbital electronegativity. In molecular docking, preparing receptors and ligands with obabel adds Gasteiger partial charges to accurately model electrostatic interactions.
 
 ---
+
+## Neighbor-Joining (NJ) Trees (Phylogenetics)
+**Date:** June 20, 2025
+
+Neighbor-joining is a bottom-up clustering method used to construct phylogenetic trees. It starts with a star-like tree and iteratively pairs nodes that minimize the total branch length, producing an unrooted tree.
+
+---
