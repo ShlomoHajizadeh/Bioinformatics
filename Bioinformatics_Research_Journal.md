@@ -139420,3 +139420,24 @@ The Needleman-Wunsch algorithm is a dynamic programming algorithm used for globa
 A Phred quality score (Q) measures the base-calling error probability. Q = -10 * log10(P), where P is the probability of an incorrect call. A Phred score of 30 represents a 1 in 1000 error rate (99.9% accuracy).
 
 ---
+
+## Kimura 2-Parameter (K2P) Model (Molecular Evolution)
+**Date:** May 23, 2026
+
+The Kimura 2-parameter model distinguishes between transitions (mutations between purines or between pyrimidines) and transversions (purine-to-pyrimidine mutations), assigning them different rate parameters (alpha and beta).
+
+---
+
+## Smith-Waterman Algorithm (Sequence Alignment)
+**Date:** June 17, 2025
+
+Unlike global alignment, the Smith-Waterman algorithm finds the optimal local alignment between two sequences. It prevents negative scores in the dynamic programming matrix, meaning alignments can start and end anywhere when similarity is high.
+
+---
+
+## Smith-Waterman Algorithm (Sequence Alignment)
+**Date:** September 01, 2025
+
+Unlike global alignment, the Smith-Waterman algorithm finds the optimal local alignment between two sequences. It prevents negative scores in the dynamic programming matrix, meaning alignments can start and end anywhere when similarity is high.
+
+---
