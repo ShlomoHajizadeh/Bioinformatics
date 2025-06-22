@@ -50513,3 +50513,10 @@ The Needleman-Wunsch algorithm is a dynamic programming algorithm used for globa
 Predicted Local Distance Difference Test (pLDDT) is the per-residue confidence metric computed by AlphaFold2. Scores >= 90 indicate very high confidence (accurate side chains), while scores < 50 indicate disordered regions.
 
 ---
+
+## Neighbor-Joining (NJ) Trees (Phylogenetics)
+**Date:** June 22, 2025
+
+Neighbor-joining is a bottom-up clustering method used to construct phylogenetic trees. It starts with a star-like tree and iteratively pairs nodes that minimize the total branch length, producing an unrooted tree.
+
+---
