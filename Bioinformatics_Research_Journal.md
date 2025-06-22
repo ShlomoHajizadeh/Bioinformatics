@@ -19377,3 +19377,10 @@ BLAST is a heuristic algorithm for searching sequence databases. It finds short 
 Differential gene expression (DGE) analysis identifies genes showing statistically significant changes in expression between groups. Tools like DESeq2 and edgeR model count data using a negative binomial distribution to handle overdispersion.
 
 ---
+
+## Codon Usage Bias (Molecular Biology)
+**Date:** June 22, 2025
+
+Codon usage bias refers to differences in the frequency of occurrence of synonymous codons in coding DNA. It varies between organisms and is highly correlated with tRNA abundance and translation efficiency.
+
+---
