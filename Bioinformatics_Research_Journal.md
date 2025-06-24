@@ -25516,3 +25516,10 @@ Neighbor-joining is a bottom-up clustering method used to construct phylogenetic
 Neighbor-joining is a bottom-up clustering method used to construct phylogenetic trees. It starts with a star-like tree and iteratively pairs nodes that minimize the total branch length, producing an unrooted tree.
 
 ---
+
+## Gasteiger Partial Charges (Cheminformatics)
+**Date:** June 24, 2025
+
+Gasteiger-Marsili charges are calculated iteratively based on orbital electronegativity. In molecular docking, preparing receptors and ligands with obabel adds Gasteiger partial charges to accurately model electrostatic interactions.
+
+---
