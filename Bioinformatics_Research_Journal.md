@@ -191360,3 +191360,10 @@ The Jukes-Cantor model assumes equal mutation rates among all nucleotides (A, C,
 Unlike global alignment, the Smith-Waterman algorithm finds the optimal local alignment between two sequences. It prevents negative scores in the dynamic programming matrix, meaning alignments can start and end anywhere when similarity is high.
 
 ---
+
+## Gasteiger Partial Charges (Cheminformatics)
+**Date:** June 25, 2025
+
+Gasteiger-Marsili charges are calculated iteratively based on orbital electronegativity. In molecular docking, preparing receptors and ligands with obabel adds Gasteiger partial charges to accurately model electrostatic interactions.
+
+---
