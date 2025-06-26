@@ -37717,3 +37717,10 @@ Gasteiger-Marsili charges are calculated iteratively based on orbital electroneg
 The Kimura 2-parameter model distinguishes between transitions (mutations between purines or between pyrimidines) and transversions (purine-to-pyrimidine mutations), assigning them different rate parameters (alpha and beta).
 
 ---
+
+## Hidden Markov Models (HMMs) (Sequence Analysis)
+**Date:** June 26, 2025
+
+HMMs are statistical models representing probability distributions over sequences. In bioinformatics, profile HMMs are widely used by tools like HMMER to build highly sensitive sequence profiles for protein family classification.
+
+---
