@@ -43114,3 +43114,10 @@ AutoDock Vina uses an iterated local search global optimizer combined with a sem
 Neighbor-joining is a bottom-up clustering method used to construct phylogenetic trees. It starts with a star-like tree and iteratively pairs nodes that minimize the total branch length, producing an unrooted tree.
 
 ---
+
+## RNA-Seq Differential Gene Expression (Transcriptomics)
+**Date:** July 01, 2025
+
+Differential gene expression (DGE) analysis identifies genes showing statistically significant changes in expression between groups. Tools like DESeq2 and edgeR model count data using a negative binomial distribution to handle overdispersion.
+
+---
