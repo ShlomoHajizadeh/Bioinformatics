@@ -59158,3 +59158,10 @@ The Needleman-Wunsch algorithm is a dynamic programming algorithm used for globa
 ChIP-Seq is used to analyze protein-DNA interactions. It combines chromatin immunoprecipitation with high-throughput sequencing to identify binding sites for transcription factors and histone modifications across the genome.
 
 ---
+
+## Smith-Waterman Algorithm (Sequence Alignment)
+**Date:** July 06, 2025
+
+Unlike global alignment, the Smith-Waterman algorithm finds the optimal local alignment between two sequences. It prevents negative scores in the dynamic programming matrix, meaning alignments can start and end anywhere when similarity is high.
+
+---
