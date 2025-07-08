@@ -36681,3 +36681,10 @@ The Jukes-Cantor model assumes equal mutation rates among all nucleotides (A, C,
 HMMs are statistical models representing probability distributions over sequences. In bioinformatics, profile HMMs are widely used by tools like HMMER to build highly sensitive sequence profiles for protein family classification.
 
 ---
+
+## Smith-Waterman Algorithm (Sequence Alignment)
+**Date:** July 08, 2025
+
+Unlike global alignment, the Smith-Waterman algorithm finds the optimal local alignment between two sequences. It prevents negative scores in the dynamic programming matrix, meaning alignments can start and end anywhere when similarity is high.
+
+---
