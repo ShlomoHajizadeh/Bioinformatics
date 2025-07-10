@@ -190051,3 +190051,10 @@ A Phred quality score (Q) measures the base-calling error probability. Q = -10 *
 Unlike global alignment, the Smith-Waterman algorithm finds the optimal local alignment between two sequences. It prevents negative scores in the dynamic programming matrix, meaning alignments can start and end anywhere when similarity is high.
 
 ---
+
+## Codon Usage Bias (Molecular Biology)
+**Date:** July 11, 2025
+
+Codon usage bias refers to differences in the frequency of occurrence of synonymous codons in coding DNA. It varies between organisms and is highly correlated with tRNA abundance and translation efficiency.
+
+---
