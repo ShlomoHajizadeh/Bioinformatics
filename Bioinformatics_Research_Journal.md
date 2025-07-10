@@ -39376,3 +39376,10 @@ AutoDock Vina uses an iterated local search global optimizer combined with a sem
 The Kimura 2-parameter model distinguishes between transitions (mutations between purines or between pyrimidines) and transversions (purine-to-pyrimidine mutations), assigning them different rate parameters (alpha and beta).
 
 ---
+
+## Smith-Waterman Algorithm (Sequence Alignment)
+**Date:** July 10, 2025
+
+Unlike global alignment, the Smith-Waterman algorithm finds the optimal local alignment between two sequences. It prevents negative scores in the dynamic programming matrix, meaning alignments can start and end anywhere when similarity is high.
+
+---
