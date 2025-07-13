@@ -44052,3 +44052,10 @@ Codon usage bias refers to differences in the frequency of occurrence of synonym
 BLAST is a heuristic algorithm for searching sequence databases. It finds short seed matches (words) and extends them to find High-scoring Segment Pairs (HSPs), trading absolute mathematical optimality for immense search speed.
 
 ---
+
+## Hidden Markov Models (HMMs) (Sequence Analysis)
+**Date:** July 14, 2025
+
+HMMs are statistical models representing probability distributions over sequences. In bioinformatics, profile HMMs are widely used by tools like HMMER to build highly sensitive sequence profiles for protein family classification.
+
+---
