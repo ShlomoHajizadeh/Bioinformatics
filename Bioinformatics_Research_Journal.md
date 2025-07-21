@@ -194111,3 +194111,10 @@ Unlike global alignment, the Smith-Waterman algorithm finds the optimal local al
 AutoDock Vina uses an iterated local search global optimizer combined with a semi-empirical scoring function. It calculates the affinity of small molecule ligands to receptor pockets using steric, hydrophobic, and hydrogen bonding terms.
 
 ---
+
+## Gasteiger Partial Charges (Cheminformatics)
+**Date:** July 21, 2025
+
+Gasteiger-Marsili charges are calculated iteratively based on orbital electronegativity. In molecular docking, preparing receptors and ligands with obabel adds Gasteiger partial charges to accurately model electrostatic interactions.
+
+---
