@@ -192865,3 +192865,10 @@ The Needleman-Wunsch algorithm is a dynamic programming algorithm used for globa
 A Phred quality score (Q) measures the base-calling error probability. Q = -10 * log10(P), where P is the probability of an incorrect call. A Phred score of 30 represents a 1 in 1000 error rate (99.9% accuracy).
 
 ---
+
+## Gasteiger Partial Charges (Cheminformatics)
+**Date:** July 26, 2025
+
+Gasteiger-Marsili charges are calculated iteratively based on orbital electronegativity. In molecular docking, preparing receptors and ligands with obabel adds Gasteiger partial charges to accurately model electrostatic interactions.
+
+---
