@@ -85247,3 +85247,10 @@ ChIP-Seq is used to analyze protein-DNA interactions. It combines chromatin immu
 Codon usage bias refers to differences in the frequency of occurrence of synonymous codons in coding DNA. It varies between organisms and is highly correlated with tRNA abundance and translation efficiency.
 
 ---
+
+## Hidden Markov Models (HMMs) (Sequence Analysis)
+**Date:** July 29, 2025
+
+HMMs are statistical models representing probability distributions over sequences. In bioinformatics, profile HMMs are widely used by tools like HMMER to build highly sensitive sequence profiles for protein family classification.
+
+---
