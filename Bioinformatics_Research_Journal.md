@@ -160805,3 +160805,66 @@ The Jukes-Cantor model assumes equal mutation rates among all nucleotides (A, C,
 The Needleman-Wunsch algorithm is a dynamic programming algorithm used for global alignment of two sequences. It uses a similarity matrix (like BLOSUM62 or PAM250) and a gap penalty to find the optimal alignment across the entire length of the sequences.
 
 ---
+
+## Neighbor-Joining (NJ) Trees (Phylogenetics)
+**Date:** August 22, 2025
+
+Neighbor-joining is a bottom-up clustering method used to construct phylogenetic trees. It starts with a star-like tree and iteratively pairs nodes that minimize the total branch length, producing an unrooted tree.
+
+---
+
+## Jukes-Cantor (JC69) Distance Model (Molecular Evolution)
+**Date:** February 28, 2026
+
+The Jukes-Cantor model assumes equal mutation rates among all nucleotides (A, C, G, T) and equal base frequencies (0.25). The evolutionary distance is calculated as d = -0.75 * ln(1 - 4/3 * p), where p is the observed proportion of differences.
+
+---
+
+## Kimura 2-Parameter (K2P) Model (Molecular Evolution)
+**Date:** November 11, 2025
+
+The Kimura 2-parameter model distinguishes between transitions (mutations between purines or between pyrimidines) and transversions (purine-to-pyrimidine mutations), assigning them different rate parameters (alpha and beta).
+
+---
+
+## Hidden Markov Models (HMMs) (Sequence Analysis)
+**Date:** March 06, 2026
+
+HMMs are statistical models representing probability distributions over sequences. In bioinformatics, profile HMMs are widely used by tools like HMMER to build highly sensitive sequence profiles for protein family classification.
+
+---
+
+## AutoDock Vina Search Algorithm (Molecular Docking)
+**Date:** April 25, 2026
+
+AutoDock Vina uses an iterated local search global optimizer combined with a semi-empirical scoring function. It calculates the affinity of small molecule ligands to receptor pockets using steric, hydrophobic, and hydrogen bonding terms.
+
+---
+
+## UPGMA (Unweighted Pair Group Method) (Phylogenetics)
+**Date:** January 15, 2026
+
+UPGMA is a simple agglomerative clustering method for phylogenetic tree construction. It assumes a constant rate of evolution (molecular clock hypothesis) and produces a rooted, ultrametric tree.
+
+---
+
+## UPGMA (Unweighted Pair Group Method) (Phylogenetics)
+**Date:** December 12, 2025
+
+UPGMA is a simple agglomerative clustering method for phylogenetic tree construction. It assumes a constant rate of evolution (molecular clock hypothesis) and produces a rooted, ultrametric tree.
+
+---
+
+## Jukes-Cantor (JC69) Distance Model (Molecular Evolution)
+**Date:** March 25, 2026
+
+The Jukes-Cantor model assumes equal mutation rates among all nucleotides (A, C, G, T) and equal base frequencies (0.25). The evolutionary distance is calculated as d = -0.75 * ln(1 - 4/3 * p), where p is the observed proportion of differences.
+
+---
+
+## UPGMA (Unweighted Pair Group Method) (Phylogenetics)
+**Date:** January 16, 2026
+
+UPGMA is a simple agglomerative clustering method for phylogenetic tree construction. It assumes a constant rate of evolution (molecular clock hypothesis) and produces a rooted, ultrametric tree.
+
+---
