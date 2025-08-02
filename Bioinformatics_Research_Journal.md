@@ -158915,3 +158915,150 @@ Neighbor-joining is a bottom-up clustering method used to construct phylogenetic
 The Needleman-Wunsch algorithm is a dynamic programming algorithm used for global alignment of two sequences. It uses a similarity matrix (like BLOSUM62 or PAM250) and a gap penalty to find the optimal alignment across the entire length of the sequences.
 
 ---
+
+## UPGMA (Unweighted Pair Group Method) (Phylogenetics)
+**Date:** October 14, 2025
+
+UPGMA is a simple agglomerative clustering method for phylogenetic tree construction. It assumes a constant rate of evolution (molecular clock hypothesis) and produces a rooted, ultrametric tree.
+
+---
+
+## ChIP-Seq (Chromatin Immunoprecipitation) (Epigenomics)
+**Date:** October 15, 2025
+
+ChIP-Seq is used to analyze protein-DNA interactions. It combines chromatin immunoprecipitation with high-throughput sequencing to identify binding sites for transcription factors and histone modifications across the genome.
+
+---
+
+## Phred Quality Score (Genomics)
+**Date:** February 10, 2026
+
+A Phred quality score (Q) measures the base-calling error probability. Q = -10 * log10(P), where P is the probability of an incorrect call. A Phred score of 30 represents a 1 in 1000 error rate (99.9% accuracy).
+
+---
+
+## Smith-Waterman Algorithm (Sequence Alignment)
+**Date:** October 12, 2025
+
+Unlike global alignment, the Smith-Waterman algorithm finds the optimal local alignment between two sequences. It prevents negative scores in the dynamic programming matrix, meaning alignments can start and end anywhere when similarity is high.
+
+---
+
+## BLAST (Basic Local Alignment Search Tool) (Sequence Alignment)
+**Date:** June 30, 2025
+
+BLAST is a heuristic algorithm for searching sequence databases. It finds short seed matches (words) and extends them to find High-scoring Segment Pairs (HSPs), trading absolute mathematical optimality for immense search speed.
+
+---
+
+## Smith-Waterman Algorithm (Sequence Alignment)
+**Date:** May 03, 2026
+
+Unlike global alignment, the Smith-Waterman algorithm finds the optimal local alignment between two sequences. It prevents negative scores in the dynamic programming matrix, meaning alignments can start and end anywhere when similarity is high.
+
+---
+
+## RNA-Seq Differential Gene Expression (Transcriptomics)
+**Date:** April 29, 2026
+
+Differential gene expression (DGE) analysis identifies genes showing statistically significant changes in expression between groups. Tools like DESeq2 and edgeR model count data using a negative binomial distribution to handle overdispersion.
+
+---
+
+## Neighbor-Joining (NJ) Trees (Phylogenetics)
+**Date:** October 14, 2025
+
+Neighbor-joining is a bottom-up clustering method used to construct phylogenetic trees. It starts with a star-like tree and iteratively pairs nodes that minimize the total branch length, producing an unrooted tree.
+
+---
+
+## AutoDock Vina Search Algorithm (Molecular Docking)
+**Date:** February 01, 2026
+
+AutoDock Vina uses an iterated local search global optimizer combined with a semi-empirical scoring function. It calculates the affinity of small molecule ligands to receptor pockets using steric, hydrophobic, and hydrogen bonding terms.
+
+---
+
+## Codon Usage Bias (Molecular Biology)
+**Date:** August 31, 2025
+
+Codon usage bias refers to differences in the frequency of occurrence of synonymous codons in coding DNA. It varies between organisms and is highly correlated with tRNA abundance and translation efficiency.
+
+---
+
+## BLAST (Basic Local Alignment Search Tool) (Sequence Alignment)
+**Date:** January 16, 2026
+
+BLAST is a heuristic algorithm for searching sequence databases. It finds short seed matches (words) and extends them to find High-scoring Segment Pairs (HSPs), trading absolute mathematical optimality for immense search speed.
+
+---
+
+## RNA-Seq Differential Gene Expression (Transcriptomics)
+**Date:** August 11, 2025
+
+Differential gene expression (DGE) analysis identifies genes showing statistically significant changes in expression between groups. Tools like DESeq2 and edgeR model count data using a negative binomial distribution to handle overdispersion.
+
+---
+
+## Phred Quality Score (Genomics)
+**Date:** November 17, 2025
+
+A Phred quality score (Q) measures the base-calling error probability. Q = -10 * log10(P), where P is the probability of an incorrect call. A Phred score of 30 represents a 1 in 1000 error rate (99.9% accuracy).
+
+---
+
+## Gasteiger Partial Charges (Cheminformatics)
+**Date:** May 23, 2026
+
+Gasteiger-Marsili charges are calculated iteratively based on orbital electronegativity. In molecular docking, preparing receptors and ligands with obabel adds Gasteiger partial charges to accurately model electrostatic interactions.
+
+---
+
+## Smith-Waterman Algorithm (Sequence Alignment)
+**Date:** July 13, 2025
+
+Unlike global alignment, the Smith-Waterman algorithm finds the optimal local alignment between two sequences. It prevents negative scores in the dynamic programming matrix, meaning alignments can start and end anywhere when similarity is high.
+
+---
+
+## BLAST (Basic Local Alignment Search Tool) (Sequence Alignment)
+**Date:** July 24, 2025
+
+BLAST is a heuristic algorithm for searching sequence databases. It finds short seed matches (words) and extends them to find High-scoring Segment Pairs (HSPs), trading absolute mathematical optimality for immense search speed.
+
+---
+
+## UPGMA (Unweighted Pair Group Method) (Phylogenetics)
+**Date:** June 08, 2026
+
+UPGMA is a simple agglomerative clustering method for phylogenetic tree construction. It assumes a constant rate of evolution (molecular clock hypothesis) and produces a rooted, ultrametric tree.
+
+---
+
+## Hidden Markov Models (HMMs) (Sequence Analysis)
+**Date:** December 28, 2025
+
+HMMs are statistical models representing probability distributions over sequences. In bioinformatics, profile HMMs are widely used by tools like HMMER to build highly sensitive sequence profiles for protein family classification.
+
+---
+
+## UPGMA (Unweighted Pair Group Method) (Phylogenetics)
+**Date:** February 21, 2026
+
+UPGMA is a simple agglomerative clustering method for phylogenetic tree construction. It assumes a constant rate of evolution (molecular clock hypothesis) and produces a rooted, ultrametric tree.
+
+---
+
+## Hidden Markov Models (HMMs) (Sequence Analysis)
+**Date:** April 29, 2026
+
+HMMs are statistical models representing probability distributions over sequences. In bioinformatics, profile HMMs are widely used by tools like HMMER to build highly sensitive sequence profiles for protein family classification.
+
+---
+
+## Codon Usage Bias (Molecular Biology)
+**Date:** November 26, 2025
+
+Codon usage bias refers to differences in the frequency of occurrence of synonymous codons in coding DNA. It varies between organisms and is highly correlated with tRNA abundance and translation efficiency.
+
+---
