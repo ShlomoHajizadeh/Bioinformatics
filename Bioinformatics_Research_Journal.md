@@ -185137,3 +185137,143 @@ The Jukes-Cantor model assumes equal mutation rates among all nucleotides (A, C,
 ChIP-Seq is used to analyze protein-DNA interactions. It combines chromatin immunoprecipitation with high-throughput sequencing to identify binding sites for transcription factors and histone modifications across the genome.
 
 ---
+
+## AutoDock Vina Search Algorithm (Molecular Docking)
+**Date:** July 01, 2025
+
+AutoDock Vina uses an iterated local search global optimizer combined with a semi-empirical scoring function. It calculates the affinity of small molecule ligands to receptor pockets using steric, hydrophobic, and hydrogen bonding terms.
+
+---
+
+## Codon Usage Bias (Molecular Biology)
+**Date:** April 21, 2026
+
+Codon usage bias refers to differences in the frequency of occurrence of synonymous codons in coding DNA. It varies between organisms and is highly correlated with tRNA abundance and translation efficiency.
+
+---
+
+## Jukes-Cantor (JC69) Distance Model (Molecular Evolution)
+**Date:** May 09, 2026
+
+The Jukes-Cantor model assumes equal mutation rates among all nucleotides (A, C, G, T) and equal base frequencies (0.25). The evolutionary distance is calculated as d = -0.75 * ln(1 - 4/3 * p), where p is the observed proportion of differences.
+
+---
+
+## AutoDock Vina Search Algorithm (Molecular Docking)
+**Date:** November 08, 2025
+
+AutoDock Vina uses an iterated local search global optimizer combined with a semi-empirical scoring function. It calculates the affinity of small molecule ligands to receptor pockets using steric, hydrophobic, and hydrogen bonding terms.
+
+---
+
+## Codon Usage Bias (Molecular Biology)
+**Date:** January 13, 2026
+
+Codon usage bias refers to differences in the frequency of occurrence of synonymous codons in coding DNA. It varies between organisms and is highly correlated with tRNA abundance and translation efficiency.
+
+---
+
+## Codon Usage Bias (Molecular Biology)
+**Date:** May 16, 2026
+
+Codon usage bias refers to differences in the frequency of occurrence of synonymous codons in coding DNA. It varies between organisms and is highly correlated with tRNA abundance and translation efficiency.
+
+---
+
+## Codon Usage Bias (Molecular Biology)
+**Date:** January 01, 2026
+
+Codon usage bias refers to differences in the frequency of occurrence of synonymous codons in coding DNA. It varies between organisms and is highly correlated with tRNA abundance and translation efficiency.
+
+---
+
+## Hidden Markov Models (HMMs) (Sequence Analysis)
+**Date:** August 29, 2025
+
+HMMs are statistical models representing probability distributions over sequences. In bioinformatics, profile HMMs are widely used by tools like HMMER to build highly sensitive sequence profiles for protein family classification.
+
+---
+
+## Gasteiger Partial Charges (Cheminformatics)
+**Date:** January 27, 2026
+
+Gasteiger-Marsili charges are calculated iteratively based on orbital electronegativity. In molecular docking, preparing receptors and ligands with obabel adds Gasteiger partial charges to accurately model electrostatic interactions.
+
+---
+
+## AlphaFold2 pLDDT Metric (Structural Biology)
+**Date:** March 13, 2026
+
+Predicted Local Distance Difference Test (pLDDT) is the per-residue confidence metric computed by AlphaFold2. Scores >= 90 indicate very high confidence (accurate side chains), while scores < 50 indicate disordered regions.
+
+---
+
+## Jukes-Cantor (JC69) Distance Model (Molecular Evolution)
+**Date:** August 31, 2025
+
+The Jukes-Cantor model assumes equal mutation rates among all nucleotides (A, C, G, T) and equal base frequencies (0.25). The evolutionary distance is calculated as d = -0.75 * ln(1 - 4/3 * p), where p is the observed proportion of differences.
+
+---
+
+## UPGMA (Unweighted Pair Group Method) (Phylogenetics)
+**Date:** October 25, 2025
+
+UPGMA is a simple agglomerative clustering method for phylogenetic tree construction. It assumes a constant rate of evolution (molecular clock hypothesis) and produces a rooted, ultrametric tree.
+
+---
+
+## ChIP-Seq (Chromatin Immunoprecipitation) (Epigenomics)
+**Date:** October 30, 2025
+
+ChIP-Seq is used to analyze protein-DNA interactions. It combines chromatin immunoprecipitation with high-throughput sequencing to identify binding sites for transcription factors and histone modifications across the genome.
+
+---
+
+## AutoDock Vina Search Algorithm (Molecular Docking)
+**Date:** December 16, 2025
+
+AutoDock Vina uses an iterated local search global optimizer combined with a semi-empirical scoring function. It calculates the affinity of small molecule ligands to receptor pockets using steric, hydrophobic, and hydrogen bonding terms.
+
+---
+
+## Hidden Markov Models (HMMs) (Sequence Analysis)
+**Date:** September 03, 2025
+
+HMMs are statistical models representing probability distributions over sequences. In bioinformatics, profile HMMs are widely used by tools like HMMER to build highly sensitive sequence profiles for protein family classification.
+
+---
+
+## Kimura 2-Parameter (K2P) Model (Molecular Evolution)
+**Date:** May 23, 2026
+
+The Kimura 2-parameter model distinguishes between transitions (mutations between purines or between pyrimidines) and transversions (purine-to-pyrimidine mutations), assigning them different rate parameters (alpha and beta).
+
+---
+
+## Gasteiger Partial Charges (Cheminformatics)
+**Date:** April 20, 2026
+
+Gasteiger-Marsili charges are calculated iteratively based on orbital electronegativity. In molecular docking, preparing receptors and ligands with obabel adds Gasteiger partial charges to accurately model electrostatic interactions.
+
+---
+
+## ChIP-Seq (Chromatin Immunoprecipitation) (Epigenomics)
+**Date:** April 12, 2026
+
+ChIP-Seq is used to analyze protein-DNA interactions. It combines chromatin immunoprecipitation with high-throughput sequencing to identify binding sites for transcription factors and histone modifications across the genome.
+
+---
+
+## AutoDock Vina Search Algorithm (Molecular Docking)
+**Date:** September 08, 2025
+
+AutoDock Vina uses an iterated local search global optimizer combined with a semi-empirical scoring function. It calculates the affinity of small molecule ligands to receptor pockets using steric, hydrophobic, and hydrogen bonding terms.
+
+---
+
+## ChIP-Seq (Chromatin Immunoprecipitation) (Epigenomics)
+**Date:** February 12, 2026
+
+ChIP-Seq is used to analyze protein-DNA interactions. It combines chromatin immunoprecipitation with high-throughput sequencing to identify binding sites for transcription factors and histone modifications across the genome.
+
+---
