@@ -38606,3 +38606,10 @@ ChIP-Seq is used to analyze protein-DNA interactions. It combines chromatin immu
 UPGMA is a simple agglomerative clustering method for phylogenetic tree construction. It assumes a constant rate of evolution (molecular clock hypothesis) and produces a rooted, ultrametric tree.
 
 ---
+
+## Hidden Markov Models (HMMs) (Sequence Analysis)
+**Date:** August 08, 2025
+
+HMMs are statistical models representing probability distributions over sequences. In bioinformatics, profile HMMs are widely used by tools like HMMER to build highly sensitive sequence profiles for protein family classification.
+
+---
