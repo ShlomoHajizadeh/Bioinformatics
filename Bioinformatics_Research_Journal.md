@@ -51808,3 +51808,10 @@ Codon usage bias refers to differences in the frequency of occurrence of synonym
 The Jukes-Cantor model assumes equal mutation rates among all nucleotides (A, C, G, T) and equal base frequencies (0.25). The evolutionary distance is calculated as d = -0.75 * ln(1 - 4/3 * p), where p is the observed proportion of differences.
 
 ---
+
+## Smith-Waterman Algorithm (Sequence Alignment)
+**Date:** August 11, 2025
+
+Unlike global alignment, the Smith-Waterman algorithm finds the optimal local alignment between two sequences. It prevents negative scores in the dynamic programming matrix, meaning alignments can start and end anywhere when similarity is high.
+
+---
