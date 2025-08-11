@@ -193481,3 +193481,10 @@ The Jukes-Cantor model assumes equal mutation rates among all nucleotides (A, C,
 Gasteiger-Marsili charges are calculated iteratively based on orbital electronegativity. In molecular docking, preparing receptors and ligands with obabel adds Gasteiger partial charges to accurately model electrostatic interactions.
 
 ---
+
+## BLAST (Basic Local Alignment Search Tool) (Sequence Alignment)
+**Date:** August 12, 2025
+
+BLAST is a heuristic algorithm for searching sequence databases. It finds short seed matches (words) and extends them to find High-scoring Segment Pairs (HSPs), trading absolute mathematical optimality for immense search speed.
+
+---
