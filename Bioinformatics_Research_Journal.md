@@ -178900,3 +178900,73 @@ AutoDock Vina uses an iterated local search global optimizer combined with a sem
 Differential gene expression (DGE) analysis identifies genes showing statistically significant changes in expression between groups. Tools like DESeq2 and edgeR model count data using a negative binomial distribution to handle overdispersion.
 
 ---
+
+## Phred Quality Score (Genomics)
+**Date:** April 07, 2026
+
+A Phred quality score (Q) measures the base-calling error probability. Q = -10 * log10(P), where P is the probability of an incorrect call. A Phred score of 30 represents a 1 in 1000 error rate (99.9% accuracy).
+
+---
+
+## Needleman-Wunsch Algorithm (Sequence Alignment)
+**Date:** February 03, 2026
+
+The Needleman-Wunsch algorithm is a dynamic programming algorithm used for global alignment of two sequences. It uses a similarity matrix (like BLOSUM62 or PAM250) and a gap penalty to find the optimal alignment across the entire length of the sequences.
+
+---
+
+## ChIP-Seq (Chromatin Immunoprecipitation) (Epigenomics)
+**Date:** February 06, 2026
+
+ChIP-Seq is used to analyze protein-DNA interactions. It combines chromatin immunoprecipitation with high-throughput sequencing to identify binding sites for transcription factors and histone modifications across the genome.
+
+---
+
+## RNA-Seq Differential Gene Expression (Transcriptomics)
+**Date:** August 05, 2025
+
+Differential gene expression (DGE) analysis identifies genes showing statistically significant changes in expression between groups. Tools like DESeq2 and edgeR model count data using a negative binomial distribution to handle overdispersion.
+
+---
+
+## ChIP-Seq (Chromatin Immunoprecipitation) (Epigenomics)
+**Date:** June 16, 2025
+
+ChIP-Seq is used to analyze protein-DNA interactions. It combines chromatin immunoprecipitation with high-throughput sequencing to identify binding sites for transcription factors and histone modifications across the genome.
+
+---
+
+## ChIP-Seq (Chromatin Immunoprecipitation) (Epigenomics)
+**Date:** July 22, 2025
+
+ChIP-Seq is used to analyze protein-DNA interactions. It combines chromatin immunoprecipitation with high-throughput sequencing to identify binding sites for transcription factors and histone modifications across the genome.
+
+---
+
+## RNA-Seq Differential Gene Expression (Transcriptomics)
+**Date:** November 01, 2025
+
+Differential gene expression (DGE) analysis identifies genes showing statistically significant changes in expression between groups. Tools like DESeq2 and edgeR model count data using a negative binomial distribution to handle overdispersion.
+
+---
+
+## ChIP-Seq (Chromatin Immunoprecipitation) (Epigenomics)
+**Date:** February 11, 2026
+
+ChIP-Seq is used to analyze protein-DNA interactions. It combines chromatin immunoprecipitation with high-throughput sequencing to identify binding sites for transcription factors and histone modifications across the genome.
+
+---
+
+## Gasteiger Partial Charges (Cheminformatics)
+**Date:** February 04, 2026
+
+Gasteiger-Marsili charges are calculated iteratively based on orbital electronegativity. In molecular docking, preparing receptors and ligands with obabel adds Gasteiger partial charges to accurately model electrostatic interactions.
+
+---
+
+## Hidden Markov Models (HMMs) (Sequence Analysis)
+**Date:** June 01, 2026
+
+HMMs are statistical models representing probability distributions over sequences. In bioinformatics, profile HMMs are widely used by tools like HMMER to build highly sensitive sequence profiles for protein family classification.
+
+---
