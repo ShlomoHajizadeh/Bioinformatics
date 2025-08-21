@@ -69980,3 +69980,10 @@ Gasteiger-Marsili charges are calculated iteratively based on orbital electroneg
 Unlike global alignment, the Smith-Waterman algorithm finds the optimal local alignment between two sequences. It prevents negative scores in the dynamic programming matrix, meaning alignments can start and end anywhere when similarity is high.
 
 ---
+
+## AlphaFold2 pLDDT Metric (Structural Biology)
+**Date:** August 21, 2025
+
+Predicted Local Distance Difference Test (pLDDT) is the per-residue confidence metric computed by AlphaFold2. Scores >= 90 indicate very high confidence (accurate side chains), while scores < 50 indicate disordered regions.
+
+---
