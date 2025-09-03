@@ -58185,3 +58185,10 @@ BLAST is a heuristic algorithm for searching sequence databases. It finds short 
 HMMs are statistical models representing probability distributions over sequences. In bioinformatics, profile HMMs are widely used by tools like HMMER to build highly sensitive sequence profiles for protein family classification.
 
 ---
+
+## AlphaFold2 pLDDT Metric (Structural Biology)
+**Date:** September 03, 2025
+
+Predicted Local Distance Difference Test (pLDDT) is the per-residue confidence metric computed by AlphaFold2. Scores >= 90 indicate very high confidence (accurate side chains), while scores < 50 indicate disordered regions.
+
+---
