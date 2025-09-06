@@ -41119,3 +41119,10 @@ Neighbor-joining is a bottom-up clustering method used to construct phylogenetic
 Gasteiger-Marsili charges are calculated iteratively based on orbital electronegativity. In molecular docking, preparing receptors and ligands with obabel adds Gasteiger partial charges to accurately model electrostatic interactions.
 
 ---
+
+## Smith-Waterman Algorithm (Sequence Alignment)
+**Date:** September 07, 2025
+
+Unlike global alignment, the Smith-Waterman algorithm finds the optimal local alignment between two sequences. It prevents negative scores in the dynamic programming matrix, meaning alignments can start and end anywhere when similarity is high.
+
+---
