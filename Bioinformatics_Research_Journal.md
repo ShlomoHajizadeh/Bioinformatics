@@ -46173,3 +46173,10 @@ ChIP-Seq is used to analyze protein-DNA interactions. It combines chromatin immu
 BLAST is a heuristic algorithm for searching sequence databases. It finds short seed matches (words) and extends them to find High-scoring Segment Pairs (HSPs), trading absolute mathematical optimality for immense search speed.
 
 ---
+
+## Gasteiger Partial Charges (Cheminformatics)
+**Date:** September 09, 2025
+
+Gasteiger-Marsili charges are calculated iteratively based on orbital electronegativity. In molecular docking, preparing receptors and ligands with obabel adds Gasteiger partial charges to accurately model electrostatic interactions.
+
+---
