@@ -51549,3 +51549,10 @@ Unlike global alignment, the Smith-Waterman algorithm finds the optimal local al
 ChIP-Seq is used to analyze protein-DNA interactions. It combines chromatin immunoprecipitation with high-throughput sequencing to identify binding sites for transcription factors and histone modifications across the genome.
 
 ---
+
+## Hidden Markov Models (HMMs) (Sequence Analysis)
+**Date:** September 08, 2025
+
+HMMs are statistical models representing probability distributions over sequences. In bioinformatics, profile HMMs are widely used by tools like HMMER to build highly sensitive sequence profiles for protein family classification.
+
+---
