@@ -55154,3 +55154,10 @@ The Jukes-Cantor model assumes equal mutation rates among all nucleotides (A, C,
 The Kimura 2-parameter model distinguishes between transitions (mutations between purines or between pyrimidines) and transversions (purine-to-pyrimidine mutations), assigning them different rate parameters (alpha and beta).
 
 ---
+
+## Smith-Waterman Algorithm (Sequence Alignment)
+**Date:** September 15, 2025
+
+Unlike global alignment, the Smith-Waterman algorithm finds the optimal local alignment between two sequences. It prevents negative scores in the dynamic programming matrix, meaning alignments can start and end anywhere when similarity is high.
+
+---
