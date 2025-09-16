@@ -191367,3 +191367,10 @@ Unlike global alignment, the Smith-Waterman algorithm finds the optimal local al
 Gasteiger-Marsili charges are calculated iteratively based on orbital electronegativity. In molecular docking, preparing receptors and ligands with obabel adds Gasteiger partial charges to accurately model electrostatic interactions.
 
 ---
+
+## Gasteiger Partial Charges (Cheminformatics)
+**Date:** September 16, 2025
+
+Gasteiger-Marsili charges are calculated iteratively based on orbital electronegativity. In molecular docking, preparing receptors and ligands with obabel adds Gasteiger partial charges to accurately model electrostatic interactions.
+
+---
