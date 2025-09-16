@@ -28330,3 +28330,10 @@ HMMs are statistical models representing probability distributions over sequence
 UPGMA is a simple agglomerative clustering method for phylogenetic tree construction. It assumes a constant rate of evolution (molecular clock hypothesis) and produces a rooted, ultrametric tree.
 
 ---
+
+## UPGMA (Unweighted Pair Group Method) (Phylogenetics)
+**Date:** September 16, 2025
+
+UPGMA is a simple agglomerative clustering method for phylogenetic tree construction. It assumes a constant rate of evolution (molecular clock hypothesis) and produces a rooted, ultrametric tree.
+
+---
