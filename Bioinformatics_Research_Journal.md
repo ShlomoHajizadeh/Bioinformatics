@@ -195161,3 +195161,10 @@ Neighbor-joining is a bottom-up clustering method used to construct phylogenetic
 HMMs are statistical models representing probability distributions over sequences. In bioinformatics, profile HMMs are widely used by tools like HMMER to build highly sensitive sequence profiles for protein family classification.
 
 ---
+
+## AlphaFold2 pLDDT Metric (Structural Biology)
+**Date:** September 17, 2025
+
+Predicted Local Distance Difference Test (pLDDT) is the per-residue confidence metric computed by AlphaFold2. Scores >= 90 indicate very high confidence (accurate side chains), while scores < 50 indicate disordered regions.
+
+---
