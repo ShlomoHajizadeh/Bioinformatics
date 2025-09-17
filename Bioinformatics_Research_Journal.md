@@ -41469,3 +41469,10 @@ Neighbor-joining is a bottom-up clustering method used to construct phylogenetic
 HMMs are statistical models representing probability distributions over sequences. In bioinformatics, profile HMMs are widely used by tools like HMMER to build highly sensitive sequence profiles for protein family classification.
 
 ---
+
+## BLAST (Basic Local Alignment Search Tool) (Sequence Alignment)
+**Date:** September 18, 2025
+
+BLAST is a heuristic algorithm for searching sequence databases. It finds short seed matches (words) and extends them to find High-scoring Segment Pairs (HSPs), trading absolute mathematical optimality for immense search speed.
+
+---
