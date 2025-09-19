@@ -107927,3 +107927,66 @@ HMMs are statistical models representing probability distributions over sequence
 Codon usage bias refers to differences in the frequency of occurrence of synonymous codons in coding DNA. It varies between organisms and is highly correlated with tRNA abundance and translation efficiency.
 
 ---
+
+## AutoDock Vina Search Algorithm (Molecular Docking)
+**Date:** December 01, 2025
+
+AutoDock Vina uses an iterated local search global optimizer combined with a semi-empirical scoring function. It calculates the affinity of small molecule ligands to receptor pockets using steric, hydrophobic, and hydrogen bonding terms.
+
+---
+
+## Kimura 2-Parameter (K2P) Model (Molecular Evolution)
+**Date:** December 23, 2025
+
+The Kimura 2-parameter model distinguishes between transitions (mutations between purines or between pyrimidines) and transversions (purine-to-pyrimidine mutations), assigning them different rate parameters (alpha and beta).
+
+---
+
+## Neighbor-Joining (NJ) Trees (Phylogenetics)
+**Date:** February 20, 2026
+
+Neighbor-joining is a bottom-up clustering method used to construct phylogenetic trees. It starts with a star-like tree and iteratively pairs nodes that minimize the total branch length, producing an unrooted tree.
+
+---
+
+## AutoDock Vina Search Algorithm (Molecular Docking)
+**Date:** December 06, 2025
+
+AutoDock Vina uses an iterated local search global optimizer combined with a semi-empirical scoring function. It calculates the affinity of small molecule ligands to receptor pockets using steric, hydrophobic, and hydrogen bonding terms.
+
+---
+
+## Smith-Waterman Algorithm (Sequence Alignment)
+**Date:** September 28, 2025
+
+Unlike global alignment, the Smith-Waterman algorithm finds the optimal local alignment between two sequences. It prevents negative scores in the dynamic programming matrix, meaning alignments can start and end anywhere when similarity is high.
+
+---
+
+## UPGMA (Unweighted Pair Group Method) (Phylogenetics)
+**Date:** November 07, 2025
+
+UPGMA is a simple agglomerative clustering method for phylogenetic tree construction. It assumes a constant rate of evolution (molecular clock hypothesis) and produces a rooted, ultrametric tree.
+
+---
+
+## Hidden Markov Models (HMMs) (Sequence Analysis)
+**Date:** June 02, 2026
+
+HMMs are statistical models representing probability distributions over sequences. In bioinformatics, profile HMMs are widely used by tools like HMMER to build highly sensitive sequence profiles for protein family classification.
+
+---
+
+## Neighbor-Joining (NJ) Trees (Phylogenetics)
+**Date:** February 06, 2026
+
+Neighbor-joining is a bottom-up clustering method used to construct phylogenetic trees. It starts with a star-like tree and iteratively pairs nodes that minimize the total branch length, producing an unrooted tree.
+
+---
+
+## Neighbor-Joining (NJ) Trees (Phylogenetics)
+**Date:** March 28, 2026
+
+Neighbor-joining is a bottom-up clustering method used to construct phylogenetic trees. It starts with a star-like tree and iteratively pairs nodes that minimize the total branch length, producing an unrooted tree.
+
+---
