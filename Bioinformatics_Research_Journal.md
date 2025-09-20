@@ -36303,3 +36303,10 @@ UPGMA is a simple agglomerative clustering method for phylogenetic tree construc
 AutoDock Vina uses an iterated local search global optimizer combined with a semi-empirical scoring function. It calculates the affinity of small molecule ligands to receptor pockets using steric, hydrophobic, and hydrogen bonding terms.
 
 ---
+
+## RNA-Seq Differential Gene Expression (Transcriptomics)
+**Date:** September 20, 2025
+
+Differential gene expression (DGE) analysis identifies genes showing statistically significant changes in expression between groups. Tools like DESeq2 and edgeR model count data using a negative binomial distribution to handle overdispersion.
+
+---
