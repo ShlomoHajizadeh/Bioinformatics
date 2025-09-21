@@ -38501,3 +38501,10 @@ ChIP-Seq is used to analyze protein-DNA interactions. It combines chromatin immu
 Codon usage bias refers to differences in the frequency of occurrence of synonymous codons in coding DNA. It varies between organisms and is highly correlated with tRNA abundance and translation efficiency.
 
 ---
+
+## Codon Usage Bias (Molecular Biology)
+**Date:** September 21, 2025
+
+Codon usage bias refers to differences in the frequency of occurrence of synonymous codons in coding DNA. It varies between organisms and is highly correlated with tRNA abundance and translation efficiency.
+
+---
