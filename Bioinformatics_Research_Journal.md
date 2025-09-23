@@ -59354,3 +59354,10 @@ A Phred quality score (Q) measures the base-calling error probability. Q = -10 *
 HMMs are statistical models representing probability distributions over sequences. In bioinformatics, profile HMMs are widely used by tools like HMMER to build highly sensitive sequence profiles for protein family classification.
 
 ---
+
+## Hidden Markov Models (HMMs) (Sequence Analysis)
+**Date:** September 23, 2025
+
+HMMs are statistical models representing probability distributions over sequences. In bioinformatics, profile HMMs are widely used by tools like HMMER to build highly sensitive sequence profiles for protein family classification.
+
+---
