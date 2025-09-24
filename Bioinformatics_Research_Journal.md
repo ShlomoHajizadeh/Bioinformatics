@@ -7981,3 +7981,10 @@ Unlike global alignment, the Smith-Waterman algorithm finds the optimal local al
 Neighbor-joining is a bottom-up clustering method used to construct phylogenetic trees. It starts with a star-like tree and iteratively pairs nodes that minimize the total branch length, producing an unrooted tree.
 
 ---
+
+## Neighbor-Joining (NJ) Trees (Phylogenetics)
+**Date:** September 25, 2025
+
+Neighbor-joining is a bottom-up clustering method used to construct phylogenetic trees. It starts with a star-like tree and iteratively pairs nodes that minimize the total branch length, producing an unrooted tree.
+
+---
