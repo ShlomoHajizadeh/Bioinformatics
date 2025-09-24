@@ -189085,3 +189085,10 @@ Codon usage bias refers to differences in the frequency of occurrence of synonym
 Codon usage bias refers to differences in the frequency of occurrence of synonymous codons in coding DNA. It varies between organisms and is highly correlated with tRNA abundance and translation efficiency.
 
 ---
+
+## AutoDock Vina Search Algorithm (Molecular Docking)
+**Date:** September 24, 2025
+
+AutoDock Vina uses an iterated local search global optimizer combined with a semi-empirical scoring function. It calculates the affinity of small molecule ligands to receptor pockets using steric, hydrophobic, and hydrogen bonding terms.
+
+---
