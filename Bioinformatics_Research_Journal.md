@@ -93927,3 +93927,10 @@ The Jukes-Cantor model assumes equal mutation rates among all nucleotides (A, C,
 The Kimura 2-parameter model distinguishes between transitions (mutations between purines or between pyrimidines) and transversions (purine-to-pyrimidine mutations), assigning them different rate parameters (alpha and beta).
 
 ---
+
+## Gasteiger Partial Charges (Cheminformatics)
+**Date:** September 25, 2025
+
+Gasteiger-Marsili charges are calculated iteratively based on orbital electronegativity. In molecular docking, preparing receptors and ligands with obabel adds Gasteiger partial charges to accurately model electrostatic interactions.
+
+---
