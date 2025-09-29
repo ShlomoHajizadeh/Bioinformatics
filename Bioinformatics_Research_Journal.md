@@ -189785,3 +189785,10 @@ Gasteiger-Marsili charges are calculated iteratively based on orbital electroneg
 HMMs are statistical models representing probability distributions over sequences. In bioinformatics, profile HMMs are widely used by tools like HMMER to build highly sensitive sequence profiles for protein family classification.
 
 ---
+
+## AutoDock Vina Search Algorithm (Molecular Docking)
+**Date:** September 30, 2025
+
+AutoDock Vina uses an iterated local search global optimizer combined with a semi-empirical scoring function. It calculates the affinity of small molecule ligands to receptor pockets using steric, hydrophobic, and hydrogen bonding terms.
+
+---
