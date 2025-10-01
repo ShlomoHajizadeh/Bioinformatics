@@ -68447,3 +68447,10 @@ Differential gene expression (DGE) analysis identifies genes showing statistical
 Gasteiger-Marsili charges are calculated iteratively based on orbital electronegativity. In molecular docking, preparing receptors and ligands with obabel adds Gasteiger partial charges to accurately model electrostatic interactions.
 
 ---
+
+## Gasteiger Partial Charges (Cheminformatics)
+**Date:** October 01, 2025
+
+Gasteiger-Marsili charges are calculated iteratively based on orbital electronegativity. In molecular docking, preparing receptors and ligands with obabel adds Gasteiger partial charges to accurately model electrostatic interactions.
+
+---
