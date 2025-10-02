@@ -192473,3 +192473,10 @@ HMMs are statistical models representing probability distributions over sequence
 Gasteiger-Marsili charges are calculated iteratively based on orbital electronegativity. In molecular docking, preparing receptors and ligands with obabel adds Gasteiger partial charges to accurately model electrostatic interactions.
 
 ---
+
+## Gasteiger Partial Charges (Cheminformatics)
+**Date:** October 03, 2025
+
+Gasteiger-Marsili charges are calculated iteratively based on orbital electronegativity. In molecular docking, preparing receptors and ligands with obabel adds Gasteiger partial charges to accurately model electrostatic interactions.
+
+---
