@@ -189967,3 +189967,10 @@ Gasteiger-Marsili charges are calculated iteratively based on orbital electroneg
 Differential gene expression (DGE) analysis identifies genes showing statistically significant changes in expression between groups. Tools like DESeq2 and edgeR model count data using a negative binomial distribution to handle overdispersion.
 
 ---
+
+## RNA-Seq Differential Gene Expression (Transcriptomics)
+**Date:** October 05, 2025
+
+Differential gene expression (DGE) analysis identifies genes showing statistically significant changes in expression between groups. Tools like DESeq2 and edgeR model count data using a negative binomial distribution to handle overdispersion.
+
+---
