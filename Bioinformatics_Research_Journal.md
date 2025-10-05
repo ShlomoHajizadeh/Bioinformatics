@@ -89517,3 +89517,10 @@ The Kimura 2-parameter model distinguishes between transitions (mutations betwee
 HMMs are statistical models representing probability distributions over sequences. In bioinformatics, profile HMMs are widely used by tools like HMMER to build highly sensitive sequence profiles for protein family classification.
 
 ---
+
+## Hidden Markov Models (HMMs) (Sequence Analysis)
+**Date:** October 05, 2025
+
+HMMs are statistical models representing probability distributions over sequences. In bioinformatics, profile HMMs are widely used by tools like HMMER to build highly sensitive sequence profiles for protein family classification.
+
+---
