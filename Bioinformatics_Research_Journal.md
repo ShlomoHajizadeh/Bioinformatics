@@ -3347,3 +3347,10 @@ ChIP-Seq is used to analyze protein-DNA interactions. It combines chromatin immu
 Unlike global alignment, the Smith-Waterman algorithm finds the optimal local alignment between two sequences. It prevents negative scores in the dynamic programming matrix, meaning alignments can start and end anywhere when similarity is high.
 
 ---
+
+## UPGMA (Unweighted Pair Group Method) (Phylogenetics)
+**Date:** October 08, 2025
+
+UPGMA is a simple agglomerative clustering method for phylogenetic tree construction. It assumes a constant rate of evolution (molecular clock hypothesis) and produces a rooted, ultrametric tree.
+
+---
