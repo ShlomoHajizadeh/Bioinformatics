@@ -104385,3 +104385,10 @@ A Phred quality score (Q) measures the base-calling error probability. Q = -10 *
 Neighbor-joining is a bottom-up clustering method used to construct phylogenetic trees. It starts with a star-like tree and iteratively pairs nodes that minimize the total branch length, producing an unrooted tree.
 
 ---
+
+## RNA-Seq Differential Gene Expression (Transcriptomics)
+**Date:** October 09, 2025
+
+Differential gene expression (DGE) analysis identifies genes showing statistically significant changes in expression between groups. Tools like DESeq2 and edgeR model count data using a negative binomial distribution to handle overdispersion.
+
+---
