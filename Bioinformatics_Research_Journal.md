@@ -140407,3 +140407,59 @@ The Jukes-Cantor model assumes equal mutation rates among all nucleotides (A, C,
 ChIP-Seq is used to analyze protein-DNA interactions. It combines chromatin immunoprecipitation with high-throughput sequencing to identify binding sites for transcription factors and histone modifications across the genome.
 
 ---
+
+## Codon Usage Bias (Molecular Biology)
+**Date:** October 05, 2025
+
+Codon usage bias refers to differences in the frequency of occurrence of synonymous codons in coding DNA. It varies between organisms and is highly correlated with tRNA abundance and translation efficiency.
+
+---
+
+## ChIP-Seq (Chromatin Immunoprecipitation) (Epigenomics)
+**Date:** July 26, 2025
+
+ChIP-Seq is used to analyze protein-DNA interactions. It combines chromatin immunoprecipitation with high-throughput sequencing to identify binding sites for transcription factors and histone modifications across the genome.
+
+---
+
+## Kimura 2-Parameter (K2P) Model (Molecular Evolution)
+**Date:** December 18, 2025
+
+The Kimura 2-parameter model distinguishes between transitions (mutations between purines or between pyrimidines) and transversions (purine-to-pyrimidine mutations), assigning them different rate parameters (alpha and beta).
+
+---
+
+## Phred Quality Score (Genomics)
+**Date:** December 09, 2025
+
+A Phred quality score (Q) measures the base-calling error probability. Q = -10 * log10(P), where P is the probability of an incorrect call. A Phred score of 30 represents a 1 in 1000 error rate (99.9% accuracy).
+
+---
+
+## BLAST (Basic Local Alignment Search Tool) (Sequence Alignment)
+**Date:** January 02, 2026
+
+BLAST is a heuristic algorithm for searching sequence databases. It finds short seed matches (words) and extends them to find High-scoring Segment Pairs (HSPs), trading absolute mathematical optimality for immense search speed.
+
+---
+
+## UPGMA (Unweighted Pair Group Method) (Phylogenetics)
+**Date:** December 14, 2025
+
+UPGMA is a simple agglomerative clustering method for phylogenetic tree construction. It assumes a constant rate of evolution (molecular clock hypothesis) and produces a rooted, ultrametric tree.
+
+---
+
+## Phred Quality Score (Genomics)
+**Date:** November 09, 2025
+
+A Phred quality score (Q) measures the base-calling error probability. Q = -10 * log10(P), where P is the probability of an incorrect call. A Phred score of 30 represents a 1 in 1000 error rate (99.9% accuracy).
+
+---
+
+## UPGMA (Unweighted Pair Group Method) (Phylogenetics)
+**Date:** November 15, 2025
+
+UPGMA is a simple agglomerative clustering method for phylogenetic tree construction. It assumes a constant rate of evolution (molecular clock hypothesis) and produces a rooted, ultrametric tree.
+
+---
