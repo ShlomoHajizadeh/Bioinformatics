@@ -109663,3 +109663,94 @@ Neighbor-joining is a bottom-up clustering method used to construct phylogenetic
 The Kimura 2-parameter model distinguishes between transitions (mutations between purines or between pyrimidines) and transversions (purine-to-pyrimidine mutations), assigning them different rate parameters (alpha and beta).
 
 ---
+
+## AlphaFold2 pLDDT Metric (Structural Biology)
+**Date:** November 26, 2025
+
+Predicted Local Distance Difference Test (pLDDT) is the per-residue confidence metric computed by AlphaFold2. Scores >= 90 indicate very high confidence (accurate side chains), while scores < 50 indicate disordered regions.
+
+---
+
+## RNA-Seq Differential Gene Expression (Transcriptomics)
+**Date:** November 30, 2025
+
+Differential gene expression (DGE) analysis identifies genes showing statistically significant changes in expression between groups. Tools like DESeq2 and edgeR model count data using a negative binomial distribution to handle overdispersion.
+
+---
+
+## Hidden Markov Models (HMMs) (Sequence Analysis)
+**Date:** May 02, 2026
+
+HMMs are statistical models representing probability distributions over sequences. In bioinformatics, profile HMMs are widely used by tools like HMMER to build highly sensitive sequence profiles for protein family classification.
+
+---
+
+## Jukes-Cantor (JC69) Distance Model (Molecular Evolution)
+**Date:** August 21, 2025
+
+The Jukes-Cantor model assumes equal mutation rates among all nucleotides (A, C, G, T) and equal base frequencies (0.25). The evolutionary distance is calculated as d = -0.75 * ln(1 - 4/3 * p), where p is the observed proportion of differences.
+
+---
+
+## AutoDock Vina Search Algorithm (Molecular Docking)
+**Date:** October 06, 2025
+
+AutoDock Vina uses an iterated local search global optimizer combined with a semi-empirical scoring function. It calculates the affinity of small molecule ligands to receptor pockets using steric, hydrophobic, and hydrogen bonding terms.
+
+---
+
+## Jukes-Cantor (JC69) Distance Model (Molecular Evolution)
+**Date:** May 02, 2026
+
+The Jukes-Cantor model assumes equal mutation rates among all nucleotides (A, C, G, T) and equal base frequencies (0.25). The evolutionary distance is calculated as d = -0.75 * ln(1 - 4/3 * p), where p is the observed proportion of differences.
+
+---
+
+## Hidden Markov Models (HMMs) (Sequence Analysis)
+**Date:** October 29, 2025
+
+HMMs are statistical models representing probability distributions over sequences. In bioinformatics, profile HMMs are widely used by tools like HMMER to build highly sensitive sequence profiles for protein family classification.
+
+---
+
+## Neighbor-Joining (NJ) Trees (Phylogenetics)
+**Date:** May 05, 2026
+
+Neighbor-joining is a bottom-up clustering method used to construct phylogenetic trees. It starts with a star-like tree and iteratively pairs nodes that minimize the total branch length, producing an unrooted tree.
+
+---
+
+## RNA-Seq Differential Gene Expression (Transcriptomics)
+**Date:** November 06, 2025
+
+Differential gene expression (DGE) analysis identifies genes showing statistically significant changes in expression between groups. Tools like DESeq2 and edgeR model count data using a negative binomial distribution to handle overdispersion.
+
+---
+
+## Jukes-Cantor (JC69) Distance Model (Molecular Evolution)
+**Date:** April 09, 2026
+
+The Jukes-Cantor model assumes equal mutation rates among all nucleotides (A, C, G, T) and equal base frequencies (0.25). The evolutionary distance is calculated as d = -0.75 * ln(1 - 4/3 * p), where p is the observed proportion of differences.
+
+---
+
+## Gasteiger Partial Charges (Cheminformatics)
+**Date:** November 17, 2025
+
+Gasteiger-Marsili charges are calculated iteratively based on orbital electronegativity. In molecular docking, preparing receptors and ligands with obabel adds Gasteiger partial charges to accurately model electrostatic interactions.
+
+---
+
+## Jukes-Cantor (JC69) Distance Model (Molecular Evolution)
+**Date:** September 14, 2025
+
+The Jukes-Cantor model assumes equal mutation rates among all nucleotides (A, C, G, T) and equal base frequencies (0.25). The evolutionary distance is calculated as d = -0.75 * ln(1 - 4/3 * p), where p is the observed proportion of differences.
+
+---
+
+## Phred Quality Score (Genomics)
+**Date:** April 04, 2026
+
+A Phred quality score (Q) measures the base-calling error probability. Q = -10 * log10(P), where P is the probability of an incorrect call. A Phred score of 30 represents a 1 in 1000 error rate (99.9% accuracy).
+
+---
