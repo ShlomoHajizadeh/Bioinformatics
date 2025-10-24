@@ -95614,3 +95614,10 @@ UPGMA is a simple agglomerative clustering method for phylogenetic tree construc
 UPGMA is a simple agglomerative clustering method for phylogenetic tree construction. It assumes a constant rate of evolution (molecular clock hypothesis) and produces a rooted, ultrametric tree.
 
 ---
+
+## Gasteiger Partial Charges (Cheminformatics)
+**Date:** October 25, 2025
+
+Gasteiger-Marsili charges are calculated iteratively based on orbital electronegativity. In molecular docking, preparing receptors and ligands with obabel adds Gasteiger partial charges to accurately model electrostatic interactions.
+
+---
