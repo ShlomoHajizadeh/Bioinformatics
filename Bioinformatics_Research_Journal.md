@@ -110398,3 +110398,45 @@ ChIP-Seq is used to analyze protein-DNA interactions. It combines chromatin immu
 Codon usage bias refers to differences in the frequency of occurrence of synonymous codons in coding DNA. It varies between organisms and is highly correlated with tRNA abundance and translation efficiency.
 
 ---
+
+## Gasteiger Partial Charges (Cheminformatics)
+**Date:** December 16, 2025
+
+Gasteiger-Marsili charges are calculated iteratively based on orbital electronegativity. In molecular docking, preparing receptors and ligands with obabel adds Gasteiger partial charges to accurately model electrostatic interactions.
+
+---
+
+## Neighbor-Joining (NJ) Trees (Phylogenetics)
+**Date:** July 10, 2025
+
+Neighbor-joining is a bottom-up clustering method used to construct phylogenetic trees. It starts with a star-like tree and iteratively pairs nodes that minimize the total branch length, producing an unrooted tree.
+
+---
+
+## BLAST (Basic Local Alignment Search Tool) (Sequence Alignment)
+**Date:** March 28, 2026
+
+BLAST is a heuristic algorithm for searching sequence databases. It finds short seed matches (words) and extends them to find High-scoring Segment Pairs (HSPs), trading absolute mathematical optimality for immense search speed.
+
+---
+
+## Kimura 2-Parameter (K2P) Model (Molecular Evolution)
+**Date:** December 18, 2025
+
+The Kimura 2-parameter model distinguishes between transitions (mutations between purines or between pyrimidines) and transversions (purine-to-pyrimidine mutations), assigning them different rate parameters (alpha and beta).
+
+---
+
+## Gasteiger Partial Charges (Cheminformatics)
+**Date:** February 19, 2026
+
+Gasteiger-Marsili charges are calculated iteratively based on orbital electronegativity. In molecular docking, preparing receptors and ligands with obabel adds Gasteiger partial charges to accurately model electrostatic interactions.
+
+---
+
+## Gasteiger Partial Charges (Cheminformatics)
+**Date:** July 22, 2025
+
+Gasteiger-Marsili charges are calculated iteratively based on orbital electronegativity. In molecular docking, preparing receptors and ligands with obabel adds Gasteiger partial charges to accurately model electrostatic interactions.
+
+---
