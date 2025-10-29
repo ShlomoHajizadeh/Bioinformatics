@@ -62420,3 +62420,10 @@ Unlike global alignment, the Smith-Waterman algorithm finds the optimal local al
 BLAST is a heuristic algorithm for searching sequence databases. It finds short seed matches (words) and extends them to find High-scoring Segment Pairs (HSPs), trading absolute mathematical optimality for immense search speed.
 
 ---
+
+## Gasteiger Partial Charges (Cheminformatics)
+**Date:** October 29, 2025
+
+Gasteiger-Marsili charges are calculated iteratively based on orbital electronegativity. In molecular docking, preparing receptors and ligands with obabel adds Gasteiger partial charges to accurately model electrostatic interactions.
+
+---
