@@ -42645,3 +42645,10 @@ The Needleman-Wunsch algorithm is a dynamic programming algorithm used for globa
 UPGMA is a simple agglomerative clustering method for phylogenetic tree construction. It assumes a constant rate of evolution (molecular clock hypothesis) and produces a rooted, ultrametric tree.
 
 ---
+
+## Smith-Waterman Algorithm (Sequence Alignment)
+**Date:** October 31, 2025
+
+Unlike global alignment, the Smith-Waterman algorithm finds the optimal local alignment between two sequences. It prevents negative scores in the dynamic programming matrix, meaning alignments can start and end anywhere when similarity is high.
+
+---
