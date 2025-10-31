@@ -86045,3 +86045,10 @@ ChIP-Seq is used to analyze protein-DNA interactions. It combines chromatin immu
 A Phred quality score (Q) measures the base-calling error probability. Q = -10 * log10(P), where P is the probability of an incorrect call. A Phred score of 30 represents a 1 in 1000 error rate (99.9% accuracy).
 
 ---
+
+## Hidden Markov Models (HMMs) (Sequence Analysis)
+**Date:** October 31, 2025
+
+HMMs are statistical models representing probability distributions over sequences. In bioinformatics, profile HMMs are widely used by tools like HMMER to build highly sensitive sequence profiles for protein family classification.
+
+---
