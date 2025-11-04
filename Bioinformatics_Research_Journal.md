@@ -195028,3 +195028,10 @@ Gasteiger-Marsili charges are calculated iteratively based on orbital electroneg
 ChIP-Seq is used to analyze protein-DNA interactions. It combines chromatin immunoprecipitation with high-throughput sequencing to identify binding sites for transcription factors and histone modifications across the genome.
 
 ---
+
+## Codon Usage Bias (Molecular Biology)
+**Date:** November 04, 2025
+
+Codon usage bias refers to differences in the frequency of occurrence of synonymous codons in coding DNA. It varies between organisms and is highly correlated with tRNA abundance and translation efficiency.
+
+---
