@@ -24599,3 +24599,10 @@ Neighbor-joining is a bottom-up clustering method used to construct phylogenetic
 The Kimura 2-parameter model distinguishes between transitions (mutations between purines or between pyrimidines) and transversions (purine-to-pyrimidine mutations), assigning them different rate parameters (alpha and beta).
 
 ---
+
+## Neighbor-Joining (NJ) Trees (Phylogenetics)
+**Date:** November 07, 2025
+
+Neighbor-joining is a bottom-up clustering method used to construct phylogenetic trees. It starts with a star-like tree and iteratively pairs nodes that minimize the total branch length, producing an unrooted tree.
+
+---
