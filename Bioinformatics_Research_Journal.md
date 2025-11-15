@@ -53747,3 +53747,10 @@ UPGMA is a simple agglomerative clustering method for phylogenetic tree construc
 Codon usage bias refers to differences in the frequency of occurrence of synonymous codons in coding DNA. It varies between organisms and is highly correlated with tRNA abundance and translation efficiency.
 
 ---
+
+## Gasteiger Partial Charges (Cheminformatics)
+**Date:** November 15, 2025
+
+Gasteiger-Marsili charges are calculated iteratively based on orbital electronegativity. In molecular docking, preparing receptors and ligands with obabel adds Gasteiger partial charges to accurately model electrostatic interactions.
+
+---
