@@ -58584,3 +58584,10 @@ Unlike global alignment, the Smith-Waterman algorithm finds the optimal local al
 HMMs are statistical models representing probability distributions over sequences. In bioinformatics, profile HMMs are widely used by tools like HMMER to build highly sensitive sequence profiles for protein family classification.
 
 ---
+
+## Hidden Markov Models (HMMs) (Sequence Analysis)
+**Date:** November 15, 2025
+
+HMMs are statistical models representing probability distributions over sequences. In bioinformatics, profile HMMs are widely used by tools like HMMER to build highly sensitive sequence profiles for protein family classification.
+
+---
