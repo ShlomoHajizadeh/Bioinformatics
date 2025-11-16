@@ -123565,3 +123565,101 @@ Neighbor-joining is a bottom-up clustering method used to construct phylogenetic
 ChIP-Seq is used to analyze protein-DNA interactions. It combines chromatin immunoprecipitation with high-throughput sequencing to identify binding sites for transcription factors and histone modifications across the genome.
 
 ---
+
+## Jukes-Cantor (JC69) Distance Model (Molecular Evolution)
+**Date:** February 16, 2026
+
+The Jukes-Cantor model assumes equal mutation rates among all nucleotides (A, C, G, T) and equal base frequencies (0.25). The evolutionary distance is calculated as d = -0.75 * ln(1 - 4/3 * p), where p is the observed proportion of differences.
+
+---
+
+## Needleman-Wunsch Algorithm (Sequence Alignment)
+**Date:** August 04, 2025
+
+The Needleman-Wunsch algorithm is a dynamic programming algorithm used for global alignment of two sequences. It uses a similarity matrix (like BLOSUM62 or PAM250) and a gap penalty to find the optimal alignment across the entire length of the sequences.
+
+---
+
+## Codon Usage Bias (Molecular Biology)
+**Date:** September 09, 2025
+
+Codon usage bias refers to differences in the frequency of occurrence of synonymous codons in coding DNA. It varies between organisms and is highly correlated with tRNA abundance and translation efficiency.
+
+---
+
+## Phred Quality Score (Genomics)
+**Date:** January 17, 2026
+
+A Phred quality score (Q) measures the base-calling error probability. Q = -10 * log10(P), where P is the probability of an incorrect call. A Phred score of 30 represents a 1 in 1000 error rate (99.9% accuracy).
+
+---
+
+## Needleman-Wunsch Algorithm (Sequence Alignment)
+**Date:** September 26, 2025
+
+The Needleman-Wunsch algorithm is a dynamic programming algorithm used for global alignment of two sequences. It uses a similarity matrix (like BLOSUM62 or PAM250) and a gap penalty to find the optimal alignment across the entire length of the sequences.
+
+---
+
+## Codon Usage Bias (Molecular Biology)
+**Date:** April 26, 2026
+
+Codon usage bias refers to differences in the frequency of occurrence of synonymous codons in coding DNA. It varies between organisms and is highly correlated with tRNA abundance and translation efficiency.
+
+---
+
+## Gasteiger Partial Charges (Cheminformatics)
+**Date:** May 30, 2026
+
+Gasteiger-Marsili charges are calculated iteratively based on orbital electronegativity. In molecular docking, preparing receptors and ligands with obabel adds Gasteiger partial charges to accurately model electrostatic interactions.
+
+---
+
+## Neighbor-Joining (NJ) Trees (Phylogenetics)
+**Date:** July 04, 2025
+
+Neighbor-joining is a bottom-up clustering method used to construct phylogenetic trees. It starts with a star-like tree and iteratively pairs nodes that minimize the total branch length, producing an unrooted tree.
+
+---
+
+## Neighbor-Joining (NJ) Trees (Phylogenetics)
+**Date:** April 22, 2026
+
+Neighbor-joining is a bottom-up clustering method used to construct phylogenetic trees. It starts with a star-like tree and iteratively pairs nodes that minimize the total branch length, producing an unrooted tree.
+
+---
+
+## AlphaFold2 pLDDT Metric (Structural Biology)
+**Date:** May 15, 2026
+
+Predicted Local Distance Difference Test (pLDDT) is the per-residue confidence metric computed by AlphaFold2. Scores >= 90 indicate very high confidence (accurate side chains), while scores < 50 indicate disordered regions.
+
+---
+
+## ChIP-Seq (Chromatin Immunoprecipitation) (Epigenomics)
+**Date:** October 02, 2025
+
+ChIP-Seq is used to analyze protein-DNA interactions. It combines chromatin immunoprecipitation with high-throughput sequencing to identify binding sites for transcription factors and histone modifications across the genome.
+
+---
+
+## Neighbor-Joining (NJ) Trees (Phylogenetics)
+**Date:** December 17, 2025
+
+Neighbor-joining is a bottom-up clustering method used to construct phylogenetic trees. It starts with a star-like tree and iteratively pairs nodes that minimize the total branch length, producing an unrooted tree.
+
+---
+
+## BLAST (Basic Local Alignment Search Tool) (Sequence Alignment)
+**Date:** April 06, 2026
+
+BLAST is a heuristic algorithm for searching sequence databases. It finds short seed matches (words) and extends them to find High-scoring Segment Pairs (HSPs), trading absolute mathematical optimality for immense search speed.
+
+---
+
+## Gasteiger Partial Charges (Cheminformatics)
+**Date:** October 13, 2025
+
+Gasteiger-Marsili charges are calculated iteratively based on orbital electronegativity. In molecular docking, preparing receptors and ligands with obabel adds Gasteiger partial charges to accurately model electrostatic interactions.
+
+---
