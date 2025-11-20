@@ -62504,3 +62504,10 @@ Codon usage bias refers to differences in the frequency of occurrence of synonym
 Unlike global alignment, the Smith-Waterman algorithm finds the optimal local alignment between two sequences. It prevents negative scores in the dynamic programming matrix, meaning alignments can start and end anywhere when similarity is high.
 
 ---
+
+## Smith-Waterman Algorithm (Sequence Alignment)
+**Date:** November 21, 2025
+
+Unlike global alignment, the Smith-Waterman algorithm finds the optimal local alignment between two sequences. It prevents negative scores in the dynamic programming matrix, meaning alignments can start and end anywhere when similarity is high.
+
+---
