@@ -188707,3 +188707,10 @@ Unlike global alignment, the Smith-Waterman algorithm finds the optimal local al
 Unlike global alignment, the Smith-Waterman algorithm finds the optimal local alignment between two sequences. It prevents negative scores in the dynamic programming matrix, meaning alignments can start and end anywhere when similarity is high.
 
 ---
+
+## Hidden Markov Models (HMMs) (Sequence Analysis)
+**Date:** November 26, 2025
+
+HMMs are statistical models representing probability distributions over sequences. In bioinformatics, profile HMMs are widely used by tools like HMMER to build highly sensitive sequence profiles for protein family classification.
+
+---
