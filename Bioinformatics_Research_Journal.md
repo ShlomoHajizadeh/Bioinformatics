@@ -153504,3 +153504,66 @@ Predicted Local Distance Difference Test (pLDDT) is the per-residue confidence m
 UPGMA is a simple agglomerative clustering method for phylogenetic tree construction. It assumes a constant rate of evolution (molecular clock hypothesis) and produces a rooted, ultrametric tree.
 
 ---
+
+## Codon Usage Bias (Molecular Biology)
+**Date:** November 04, 2025
+
+Codon usage bias refers to differences in the frequency of occurrence of synonymous codons in coding DNA. It varies between organisms and is highly correlated with tRNA abundance and translation efficiency.
+
+---
+
+## Phred Quality Score (Genomics)
+**Date:** January 02, 2026
+
+A Phred quality score (Q) measures the base-calling error probability. Q = -10 * log10(P), where P is the probability of an incorrect call. A Phred score of 30 represents a 1 in 1000 error rate (99.9% accuracy).
+
+---
+
+## Neighbor-Joining (NJ) Trees (Phylogenetics)
+**Date:** May 24, 2026
+
+Neighbor-joining is a bottom-up clustering method used to construct phylogenetic trees. It starts with a star-like tree and iteratively pairs nodes that minimize the total branch length, producing an unrooted tree.
+
+---
+
+## Needleman-Wunsch Algorithm (Sequence Alignment)
+**Date:** June 09, 2026
+
+The Needleman-Wunsch algorithm is a dynamic programming algorithm used for global alignment of two sequences. It uses a similarity matrix (like BLOSUM62 or PAM250) and a gap penalty to find the optimal alignment across the entire length of the sequences.
+
+---
+
+## Neighbor-Joining (NJ) Trees (Phylogenetics)
+**Date:** December 31, 2025
+
+Neighbor-joining is a bottom-up clustering method used to construct phylogenetic trees. It starts with a star-like tree and iteratively pairs nodes that minimize the total branch length, producing an unrooted tree.
+
+---
+
+## Phred Quality Score (Genomics)
+**Date:** November 04, 2025
+
+A Phred quality score (Q) measures the base-calling error probability. Q = -10 * log10(P), where P is the probability of an incorrect call. A Phred score of 30 represents a 1 in 1000 error rate (99.9% accuracy).
+
+---
+
+## Hidden Markov Models (HMMs) (Sequence Analysis)
+**Date:** September 18, 2025
+
+HMMs are statistical models representing probability distributions over sequences. In bioinformatics, profile HMMs are widely used by tools like HMMER to build highly sensitive sequence profiles for protein family classification.
+
+---
+
+## ChIP-Seq (Chromatin Immunoprecipitation) (Epigenomics)
+**Date:** December 27, 2025
+
+ChIP-Seq is used to analyze protein-DNA interactions. It combines chromatin immunoprecipitation with high-throughput sequencing to identify binding sites for transcription factors and histone modifications across the genome.
+
+---
+
+## Kimura 2-Parameter (K2P) Model (Molecular Evolution)
+**Date:** February 16, 2026
+
+The Kimura 2-parameter model distinguishes between transitions (mutations between purines or between pyrimidines) and transversions (purine-to-pyrimidine mutations), assigning them different rate parameters (alpha and beta).
+
+---
