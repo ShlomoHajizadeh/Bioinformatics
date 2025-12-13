@@ -80963,3 +80963,10 @@ The Needleman-Wunsch algorithm is a dynamic programming algorithm used for globa
 Differential gene expression (DGE) analysis identifies genes showing statistically significant changes in expression between groups. Tools like DESeq2 and edgeR model count data using a negative binomial distribution to handle overdispersion.
 
 ---
+
+## Gasteiger Partial Charges (Cheminformatics)
+**Date:** December 13, 2025
+
+Gasteiger-Marsili charges are calculated iteratively based on orbital electronegativity. In molecular docking, preparing receptors and ligands with obabel adds Gasteiger partial charges to accurately model electrostatic interactions.
+
+---
