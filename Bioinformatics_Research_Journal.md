@@ -43009,3 +43009,10 @@ A Phred quality score (Q) measures the base-calling error probability. Q = -10 *
 HMMs are statistical models representing probability distributions over sequences. In bioinformatics, profile HMMs are widely used by tools like HMMER to build highly sensitive sequence profiles for protein family classification.
 
 ---
+
+## Needleman-Wunsch Algorithm (Sequence Alignment)
+**Date:** December 25, 2025
+
+The Needleman-Wunsch algorithm is a dynamic programming algorithm used for global alignment of two sequences. It uses a similarity matrix (like BLOSUM62 or PAM250) and a gap penalty to find the optimal alignment across the entire length of the sequences.
+
+---
