@@ -58850,3 +58850,10 @@ UPGMA is a simple agglomerative clustering method for phylogenetic tree construc
 HMMs are statistical models representing probability distributions over sequences. In bioinformatics, profile HMMs are widely used by tools like HMMER to build highly sensitive sequence profiles for protein family classification.
 
 ---
+
+## Gasteiger Partial Charges (Cheminformatics)
+**Date:** December 29, 2025
+
+Gasteiger-Marsili charges are calculated iteratively based on orbital electronegativity. In molecular docking, preparing receptors and ligands with obabel adds Gasteiger partial charges to accurately model electrostatic interactions.
+
+---
