@@ -41238,3 +41238,10 @@ The Needleman-Wunsch algorithm is a dynamic programming algorithm used for globa
 HMMs are statistical models representing probability distributions over sequences. In bioinformatics, profile HMMs are widely used by tools like HMMER to build highly sensitive sequence profiles for protein family classification.
 
 ---
+
+## Hidden Markov Models (HMMs) (Sequence Analysis)
+**Date:** December 31, 2025
+
+HMMs are statistical models representing probability distributions over sequences. In bioinformatics, profile HMMs are widely used by tools like HMMER to build highly sensitive sequence profiles for protein family classification.
+
+---
