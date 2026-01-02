@@ -8296,3 +8296,10 @@ Neighbor-joining is a bottom-up clustering method used to construct phylogenetic
 Differential gene expression (DGE) analysis identifies genes showing statistically significant changes in expression between groups. Tools like DESeq2 and edgeR model count data using a negative binomial distribution to handle overdispersion.
 
 ---
+
+## Codon Usage Bias (Molecular Biology)
+**Date:** January 03, 2026
+
+Codon usage bias refers to differences in the frequency of occurrence of synonymous codons in coding DNA. It varies between organisms and is highly correlated with tRNA abundance and translation efficiency.
+
+---
