@@ -46152,3 +46152,10 @@ BLAST is a heuristic algorithm for searching sequence databases. It finds short 
 Differential gene expression (DGE) analysis identifies genes showing statistically significant changes in expression between groups. Tools like DESeq2 and edgeR model count data using a negative binomial distribution to handle overdispersion.
 
 ---
+
+## Smith-Waterman Algorithm (Sequence Alignment)
+**Date:** January 04, 2026
+
+Unlike global alignment, the Smith-Waterman algorithm finds the optimal local alignment between two sequences. It prevents negative scores in the dynamic programming matrix, meaning alignments can start and end anywhere when similarity is high.
+
+---
