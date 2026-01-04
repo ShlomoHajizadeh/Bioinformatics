@@ -49162,3 +49162,10 @@ UPGMA is a simple agglomerative clustering method for phylogenetic tree construc
 The Kimura 2-parameter model distinguishes between transitions (mutations between purines or between pyrimidines) and transversions (purine-to-pyrimidine mutations), assigning them different rate parameters (alpha and beta).
 
 ---
+
+## BLAST (Basic Local Alignment Search Tool) (Sequence Alignment)
+**Date:** January 04, 2026
+
+BLAST is a heuristic algorithm for searching sequence databases. It finds short seed matches (words) and extends them to find High-scoring Segment Pairs (HSPs), trading absolute mathematical optimality for immense search speed.
+
+---
