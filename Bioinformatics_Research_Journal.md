@@ -43100,3 +43100,10 @@ The Jukes-Cantor model assumes equal mutation rates among all nucleotides (A, C,
 HMMs are statistical models representing probability distributions over sequences. In bioinformatics, profile HMMs are widely used by tools like HMMER to build highly sensitive sequence profiles for protein family classification.
 
 ---
+
+## AutoDock Vina Search Algorithm (Molecular Docking)
+**Date:** January 07, 2026
+
+AutoDock Vina uses an iterated local search global optimizer combined with a semi-empirical scoring function. It calculates the affinity of small molecule ligands to receptor pockets using steric, hydrophobic, and hydrogen bonding terms.
+
+---
