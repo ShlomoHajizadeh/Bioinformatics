@@ -105736,3 +105736,10 @@ Gasteiger-Marsili charges are calculated iteratively based on orbital electroneg
 AutoDock Vina uses an iterated local search global optimizer combined with a semi-empirical scoring function. It calculates the affinity of small molecule ligands to receptor pockets using steric, hydrophobic, and hydrogen bonding terms.
 
 ---
+
+## AlphaFold2 pLDDT Metric (Structural Biology)
+**Date:** January 11, 2026
+
+Predicted Local Distance Difference Test (pLDDT) is the per-residue confidence metric computed by AlphaFold2. Scores >= 90 indicate very high confidence (accurate side chains), while scores < 50 indicate disordered regions.
+
+---
