@@ -55462,3 +55462,10 @@ A Phred quality score (Q) measures the base-calling error probability. Q = -10 *
 Unlike global alignment, the Smith-Waterman algorithm finds the optimal local alignment between two sequences. It prevents negative scores in the dynamic programming matrix, meaning alignments can start and end anywhere when similarity is high.
 
 ---
+
+## RNA-Seq Differential Gene Expression (Transcriptomics)
+**Date:** January 13, 2026
+
+Differential gene expression (DGE) analysis identifies genes showing statistically significant changes in expression between groups. Tools like DESeq2 and edgeR model count data using a negative binomial distribution to handle overdispersion.
+
+---
