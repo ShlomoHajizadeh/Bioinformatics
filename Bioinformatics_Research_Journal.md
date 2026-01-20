@@ -194104,3 +194104,10 @@ BLAST is a heuristic algorithm for searching sequence databases. It finds short 
 Unlike global alignment, the Smith-Waterman algorithm finds the optimal local alignment between two sequences. It prevents negative scores in the dynamic programming matrix, meaning alignments can start and end anywhere when similarity is high.
 
 ---
+
+## AutoDock Vina Search Algorithm (Molecular Docking)
+**Date:** January 20, 2026
+
+AutoDock Vina uses an iterated local search global optimizer combined with a semi-empirical scoring function. It calculates the affinity of small molecule ligands to receptor pockets using steric, hydrophobic, and hydrogen bonding terms.
+
+---
