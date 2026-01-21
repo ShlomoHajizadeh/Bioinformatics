@@ -105162,3 +105162,10 @@ Neighbor-joining is a bottom-up clustering method used to construct phylogenetic
 The Needleman-Wunsch algorithm is a dynamic programming algorithm used for global alignment of two sequences. It uses a similarity matrix (like BLOSUM62 or PAM250) and a gap penalty to find the optimal alignment across the entire length of the sequences.
 
 ---
+
+## Codon Usage Bias (Molecular Biology)
+**Date:** January 22, 2026
+
+Codon usage bias refers to differences in the frequency of occurrence of synonymous codons in coding DNA. It varies between organisms and is highly correlated with tRNA abundance and translation efficiency.
+
+---
