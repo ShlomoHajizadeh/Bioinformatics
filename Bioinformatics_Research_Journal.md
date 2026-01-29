@@ -37010,3 +37010,10 @@ Codon usage bias refers to differences in the frequency of occurrence of synonym
 Predicted Local Distance Difference Test (pLDDT) is the per-residue confidence metric computed by AlphaFold2. Scores >= 90 indicate very high confidence (accurate side chains), while scores < 50 indicate disordered regions.
 
 ---
+
+## Kimura 2-Parameter (K2P) Model (Molecular Evolution)
+**Date:** January 30, 2026
+
+The Kimura 2-parameter model distinguishes between transitions (mutations between purines or between pyrimidines) and transversions (purine-to-pyrimidine mutations), assigning them different rate parameters (alpha and beta).
+
+---
