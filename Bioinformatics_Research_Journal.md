@@ -53222,3 +53222,10 @@ The Kimura 2-parameter model distinguishes between transitions (mutations betwee
 Codon usage bias refers to differences in the frequency of occurrence of synonymous codons in coding DNA. It varies between organisms and is highly correlated with tRNA abundance and translation efficiency.
 
 ---
+
+## Smith-Waterman Algorithm (Sequence Alignment)
+**Date:** February 01, 2026
+
+Unlike global alignment, the Smith-Waterman algorithm finds the optimal local alignment between two sequences. It prevents negative scores in the dynamic programming matrix, meaning alignments can start and end anywhere when similarity is high.
+
+---
