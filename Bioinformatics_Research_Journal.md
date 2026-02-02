@@ -189827,3 +189827,10 @@ Gasteiger-Marsili charges are calculated iteratively based on orbital electroneg
 Neighbor-joining is a bottom-up clustering method used to construct phylogenetic trees. It starts with a star-like tree and iteratively pairs nodes that minimize the total branch length, producing an unrooted tree.
 
 ---
+
+## AutoDock Vina Search Algorithm (Molecular Docking)
+**Date:** February 03, 2026
+
+AutoDock Vina uses an iterated local search global optimizer combined with a semi-empirical scoring function. It calculates the affinity of small molecule ligands to receptor pockets using steric, hydrophobic, and hydrogen bonding terms.
+
+---
