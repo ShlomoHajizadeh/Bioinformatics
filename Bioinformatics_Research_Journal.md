@@ -95215,3 +95215,10 @@ Predicted Local Distance Difference Test (pLDDT) is the per-residue confidence m
 Unlike global alignment, the Smith-Waterman algorithm finds the optimal local alignment between two sequences. It prevents negative scores in the dynamic programming matrix, meaning alignments can start and end anywhere when similarity is high.
 
 ---
+
+## Gasteiger Partial Charges (Cheminformatics)
+**Date:** February 07, 2026
+
+Gasteiger-Marsili charges are calculated iteratively based on orbital electronegativity. In molecular docking, preparing receptors and ligands with obabel adds Gasteiger partial charges to accurately model electrostatic interactions.
+
+---
