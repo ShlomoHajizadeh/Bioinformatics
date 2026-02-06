@@ -192781,3 +192781,10 @@ UPGMA is a simple agglomerative clustering method for phylogenetic tree construc
 Gasteiger-Marsili charges are calculated iteratively based on orbital electronegativity. In molecular docking, preparing receptors and ligands with obabel adds Gasteiger partial charges to accurately model electrostatic interactions.
 
 ---
+
+## AlphaFold2 pLDDT Metric (Structural Biology)
+**Date:** February 06, 2026
+
+Predicted Local Distance Difference Test (pLDDT) is the per-residue confidence metric computed by AlphaFold2. Scores >= 90 indicate very high confidence (accurate side chains), while scores < 50 indicate disordered regions.
+
+---
