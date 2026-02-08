@@ -196022,3 +196022,10 @@ The Needleman-Wunsch algorithm is a dynamic programming algorithm used for globa
 Differential gene expression (DGE) analysis identifies genes showing statistically significant changes in expression between groups. Tools like DESeq2 and edgeR model count data using a negative binomial distribution to handle overdispersion.
 
 ---
+
+## Neighbor-Joining (NJ) Trees (Phylogenetics)
+**Date:** February 08, 2026
+
+Neighbor-joining is a bottom-up clustering method used to construct phylogenetic trees. It starts with a star-like tree and iteratively pairs nodes that minimize the total branch length, producing an unrooted tree.
+
+---
