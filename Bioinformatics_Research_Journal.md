@@ -51619,3 +51619,10 @@ BLAST is a heuristic algorithm for searching sequence databases. It finds short 
 Neighbor-joining is a bottom-up clustering method used to construct phylogenetic trees. It starts with a star-like tree and iteratively pairs nodes that minimize the total branch length, producing an unrooted tree.
 
 ---
+
+## AlphaFold2 pLDDT Metric (Structural Biology)
+**Date:** February 11, 2026
+
+Predicted Local Distance Difference Test (pLDDT) is the per-residue confidence metric computed by AlphaFold2. Scores >= 90 indicate very high confidence (accurate side chains), while scores < 50 indicate disordered regions.
+
+---
