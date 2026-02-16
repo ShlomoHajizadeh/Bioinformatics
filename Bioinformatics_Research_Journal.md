@@ -66648,3 +66648,10 @@ UPGMA is a simple agglomerative clustering method for phylogenetic tree construc
 Gasteiger-Marsili charges are calculated iteratively based on orbital electronegativity. In molecular docking, preparing receptors and ligands with obabel adds Gasteiger partial charges to accurately model electrostatic interactions.
 
 ---
+
+## RNA-Seq Differential Gene Expression (Transcriptomics)
+**Date:** February 16, 2026
+
+Differential gene expression (DGE) analysis identifies genes showing statistically significant changes in expression between groups. Tools like DESeq2 and edgeR model count data using a negative binomial distribution to handle overdispersion.
+
+---
