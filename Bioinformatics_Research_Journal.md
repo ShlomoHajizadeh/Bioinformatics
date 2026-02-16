@@ -89412,3 +89412,10 @@ UPGMA is a simple agglomerative clustering method for phylogenetic tree construc
 Neighbor-joining is a bottom-up clustering method used to construct phylogenetic trees. It starts with a star-like tree and iteratively pairs nodes that minimize the total branch length, producing an unrooted tree.
 
 ---
+
+## Hidden Markov Models (HMMs) (Sequence Analysis)
+**Date:** February 16, 2026
+
+HMMs are statistical models representing probability distributions over sequences. In bioinformatics, profile HMMs are widely used by tools like HMMER to build highly sensitive sequence profiles for protein family classification.
+
+---
