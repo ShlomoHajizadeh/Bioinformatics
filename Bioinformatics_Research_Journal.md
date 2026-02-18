@@ -16941,3 +16941,10 @@ AutoDock Vina uses an iterated local search global optimizer combined with a sem
 ChIP-Seq is used to analyze protein-DNA interactions. It combines chromatin immunoprecipitation with high-throughput sequencing to identify binding sites for transcription factors and histone modifications across the genome.
 
 ---
+
+## Codon Usage Bias (Molecular Biology)
+**Date:** February 18, 2026
+
+Codon usage bias refers to differences in the frequency of occurrence of synonymous codons in coding DNA. It varies between organisms and is highly correlated with tRNA abundance and translation efficiency.
+
+---
