@@ -47671,3 +47671,10 @@ Predicted Local Distance Difference Test (pLDDT) is the per-residue confidence m
 ChIP-Seq is used to analyze protein-DNA interactions. It combines chromatin immunoprecipitation with high-throughput sequencing to identify binding sites for transcription factors and histone modifications across the genome.
 
 ---
+
+## Needleman-Wunsch Algorithm (Sequence Alignment)
+**Date:** February 20, 2026
+
+The Needleman-Wunsch algorithm is a dynamic programming algorithm used for global alignment of two sequences. It uses a similarity matrix (like BLOSUM62 or PAM250) and a gap penalty to find the optimal alignment across the entire length of the sequences.
+
+---
