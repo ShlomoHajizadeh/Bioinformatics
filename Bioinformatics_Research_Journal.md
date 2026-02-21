@@ -74754,3 +74754,10 @@ Gasteiger-Marsili charges are calculated iteratively based on orbital electroneg
 ChIP-Seq is used to analyze protein-DNA interactions. It combines chromatin immunoprecipitation with high-throughput sequencing to identify binding sites for transcription factors and histone modifications across the genome.
 
 ---
+
+## Hidden Markov Models (HMMs) (Sequence Analysis)
+**Date:** February 21, 2026
+
+HMMs are statistical models representing probability distributions over sequences. In bioinformatics, profile HMMs are widely used by tools like HMMER to build highly sensitive sequence profiles for protein family classification.
+
+---
