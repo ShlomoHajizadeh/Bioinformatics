@@ -63848,3 +63848,10 @@ The Jukes-Cantor model assumes equal mutation rates among all nucleotides (A, C,
 Codon usage bias refers to differences in the frequency of occurrence of synonymous codons in coding DNA. It varies between organisms and is highly correlated with tRNA abundance and translation efficiency.
 
 ---
+
+## Phred Quality Score (Genomics)
+**Date:** February 21, 2026
+
+A Phred quality score (Q) measures the base-calling error probability. Q = -10 * log10(P), where P is the probability of an incorrect call. A Phred score of 30 represents a 1 in 1000 error rate (99.9% accuracy).
+
+---
