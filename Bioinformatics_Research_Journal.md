@@ -75307,3 +75307,10 @@ Codon usage bias refers to differences in the frequency of occurrence of synonym
 The Kimura 2-parameter model distinguishes between transitions (mutations between purines or between pyrimidines) and transversions (purine-to-pyrimidine mutations), assigning them different rate parameters (alpha and beta).
 
 ---
+
+## Neighbor-Joining (NJ) Trees (Phylogenetics)
+**Date:** February 23, 2026
+
+Neighbor-joining is a bottom-up clustering method used to construct phylogenetic trees. It starts with a star-like tree and iteratively pairs nodes that minimize the total branch length, producing an unrooted tree.
+
+---
