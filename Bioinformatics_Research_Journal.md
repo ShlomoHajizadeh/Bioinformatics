@@ -42008,3 +42008,10 @@ BLAST is a heuristic algorithm for searching sequence databases. It finds short 
 HMMs are statistical models representing probability distributions over sequences. In bioinformatics, profile HMMs are widely used by tools like HMMER to build highly sensitive sequence profiles for protein family classification.
 
 ---
+
+## Smith-Waterman Algorithm (Sequence Alignment)
+**Date:** February 23, 2026
+
+Unlike global alignment, the Smith-Waterman algorithm finds the optimal local alignment between two sequences. It prevents negative scores in the dynamic programming matrix, meaning alignments can start and end anywhere when similarity is high.
+
+---
