@@ -64618,3 +64618,10 @@ The Jukes-Cantor model assumes equal mutation rates among all nucleotides (A, C,
 Predicted Local Distance Difference Test (pLDDT) is the per-residue confidence metric computed by AlphaFold2. Scores >= 90 indicate very high confidence (accurate side chains), while scores < 50 indicate disordered regions.
 
 ---
+
+## Gasteiger Partial Charges (Cheminformatics)
+**Date:** March 03, 2026
+
+Gasteiger-Marsili charges are calculated iteratively based on orbital electronegativity. In molecular docking, preparing receptors and ligands with obabel adds Gasteiger partial charges to accurately model electrostatic interactions.
+
+---
