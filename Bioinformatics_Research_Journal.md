@@ -105078,3 +105078,10 @@ The Jukes-Cantor model assumes equal mutation rates among all nucleotides (A, C,
 A Phred quality score (Q) measures the base-calling error probability. Q = -10 * log10(P), where P is the probability of an incorrect call. A Phred score of 30 represents a 1 in 1000 error rate (99.9% accuracy).
 
 ---
+
+## UPGMA (Unweighted Pair Group Method) (Phylogenetics)
+**Date:** March 05, 2026
+
+UPGMA is a simple agglomerative clustering method for phylogenetic tree construction. It assumes a constant rate of evolution (molecular clock hypothesis) and produces a rooted, ultrametric tree.
+
+---
