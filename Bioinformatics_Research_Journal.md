@@ -193747,3 +193747,10 @@ ChIP-Seq is used to analyze protein-DNA interactions. It combines chromatin immu
 AutoDock Vina uses an iterated local search global optimizer combined with a semi-empirical scoring function. It calculates the affinity of small molecule ligands to receptor pockets using steric, hydrophobic, and hydrogen bonding terms.
 
 ---
+
+## Kimura 2-Parameter (K2P) Model (Molecular Evolution)
+**Date:** March 06, 2026
+
+The Kimura 2-parameter model distinguishes between transitions (mutations between purines or between pyrimidines) and transversions (purine-to-pyrimidine mutations), assigning them different rate parameters (alpha and beta).
+
+---
