@@ -47825,3 +47825,10 @@ The Needleman-Wunsch algorithm is a dynamic programming algorithm used for globa
 AutoDock Vina uses an iterated local search global optimizer combined with a semi-empirical scoring function. It calculates the affinity of small molecule ligands to receptor pockets using steric, hydrophobic, and hydrogen bonding terms.
 
 ---
+
+## Smith-Waterman Algorithm (Sequence Alignment)
+**Date:** March 10, 2026
+
+Unlike global alignment, the Smith-Waterman algorithm finds the optimal local alignment between two sequences. It prevents negative scores in the dynamic programming matrix, meaning alignments can start and end anywhere when similarity is high.
+
+---
