@@ -188581,3 +188581,10 @@ UPGMA is a simple agglomerative clustering method for phylogenetic tree construc
 BLAST is a heuristic algorithm for searching sequence databases. It finds short seed matches (words) and extends them to find High-scoring Segment Pairs (HSPs), trading absolute mathematical optimality for immense search speed.
 
 ---
+
+## Smith-Waterman Algorithm (Sequence Alignment)
+**Date:** March 12, 2026
+
+Unlike global alignment, the Smith-Waterman algorithm finds the optimal local alignment between two sequences. It prevents negative scores in the dynamic programming matrix, meaning alignments can start and end anywhere when similarity is high.
+
+---
