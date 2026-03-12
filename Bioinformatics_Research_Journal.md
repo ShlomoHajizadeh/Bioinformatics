@@ -52060,3 +52060,10 @@ BLAST is a heuristic algorithm for searching sequence databases. It finds short 
 The Kimura 2-parameter model distinguishes between transitions (mutations between purines or between pyrimidines) and transversions (purine-to-pyrimidine mutations), assigning them different rate parameters (alpha and beta).
 
 ---
+
+## AlphaFold2 pLDDT Metric (Structural Biology)
+**Date:** March 13, 2026
+
+Predicted Local Distance Difference Test (pLDDT) is the per-residue confidence metric computed by AlphaFold2. Scores >= 90 indicate very high confidence (accurate side chains), while scores < 50 indicate disordered regions.
+
+---
