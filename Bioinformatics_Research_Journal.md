@@ -193635,3 +193635,10 @@ Gasteiger-Marsili charges are calculated iteratively based on orbital electroneg
 The Kimura 2-parameter model distinguishes between transitions (mutations between purines or between pyrimidines) and transversions (purine-to-pyrimidine mutations), assigning them different rate parameters (alpha and beta).
 
 ---
+
+## Gasteiger Partial Charges (Cheminformatics)
+**Date:** March 14, 2026
+
+Gasteiger-Marsili charges are calculated iteratively based on orbital electronegativity. In molecular docking, preparing receptors and ligands with obabel adds Gasteiger partial charges to accurately model electrostatic interactions.
+
+---
