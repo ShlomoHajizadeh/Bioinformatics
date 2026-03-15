@@ -106135,3 +106135,10 @@ The Jukes-Cantor model assumes equal mutation rates among all nucleotides (A, C,
 Neighbor-joining is a bottom-up clustering method used to construct phylogenetic trees. It starts with a star-like tree and iteratively pairs nodes that minimize the total branch length, producing an unrooted tree.
 
 ---
+
+## Codon Usage Bias (Molecular Biology)
+**Date:** March 15, 2026
+
+Codon usage bias refers to differences in the frequency of occurrence of synonymous codons in coding DNA. It varies between organisms and is highly correlated with tRNA abundance and translation efficiency.
+
+---
