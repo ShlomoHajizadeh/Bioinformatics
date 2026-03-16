@@ -12020,3 +12020,10 @@ Gasteiger-Marsili charges are calculated iteratively based on orbital electroneg
 AutoDock Vina uses an iterated local search global optimizer combined with a semi-empirical scoring function. It calculates the affinity of small molecule ligands to receptor pockets using steric, hydrophobic, and hydrogen bonding terms.
 
 ---
+
+## AutoDock Vina Search Algorithm (Molecular Docking)
+**Date:** March 16, 2026
+
+AutoDock Vina uses an iterated local search global optimizer combined with a semi-empirical scoring function. It calculates the affinity of small molecule ligands to receptor pockets using steric, hydrophobic, and hydrogen bonding terms.
+
+---
