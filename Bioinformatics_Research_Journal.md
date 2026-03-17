@@ -104553,3 +104553,10 @@ Unlike global alignment, the Smith-Waterman algorithm finds the optimal local al
 Neighbor-joining is a bottom-up clustering method used to construct phylogenetic trees. It starts with a star-like tree and iteratively pairs nodes that minimize the total branch length, producing an unrooted tree.
 
 ---
+
+## Codon Usage Bias (Molecular Biology)
+**Date:** March 17, 2026
+
+Codon usage bias refers to differences in the frequency of occurrence of synonymous codons in coding DNA. It varies between organisms and is highly correlated with tRNA abundance and translation efficiency.
+
+---
