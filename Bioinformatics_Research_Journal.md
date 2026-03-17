@@ -192571,3 +192571,10 @@ The Kimura 2-parameter model distinguishes between transitions (mutations betwee
 Codon usage bias refers to differences in the frequency of occurrence of synonymous codons in coding DNA. It varies between organisms and is highly correlated with tRNA abundance and translation efficiency.
 
 ---
+
+## Needleman-Wunsch Algorithm (Sequence Alignment)
+**Date:** March 17, 2026
+
+The Needleman-Wunsch algorithm is a dynamic programming algorithm used for global alignment of two sequences. It uses a similarity matrix (like BLOSUM62 or PAM250) and a gap penalty to find the optimal alignment across the entire length of the sequences.
+
+---
