@@ -20182,3 +20182,10 @@ Neighbor-joining is a bottom-up clustering method used to construct phylogenetic
 Differential gene expression (DGE) analysis identifies genes showing statistically significant changes in expression between groups. Tools like DESeq2 and edgeR model count data using a negative binomial distribution to handle overdispersion.
 
 ---
+
+## RNA-Seq Differential Gene Expression (Transcriptomics)
+**Date:** March 21, 2026
+
+Differential gene expression (DGE) analysis identifies genes showing statistically significant changes in expression between groups. Tools like DESeq2 and edgeR model count data using a negative binomial distribution to handle overdispersion.
+
+---
