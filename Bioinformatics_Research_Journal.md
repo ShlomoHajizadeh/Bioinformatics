@@ -93374,3 +93374,10 @@ Differential gene expression (DGE) analysis identifies genes showing statistical
 Codon usage bias refers to differences in the frequency of occurrence of synonymous codons in coding DNA. It varies between organisms and is highly correlated with tRNA abundance and translation efficiency.
 
 ---
+
+## Codon Usage Bias (Molecular Biology)
+**Date:** March 31, 2026
+
+Codon usage bias refers to differences in the frequency of occurrence of synonymous codons in coding DNA. It varies between organisms and is highly correlated with tRNA abundance and translation efficiency.
+
+---
