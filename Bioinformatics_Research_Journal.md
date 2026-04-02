@@ -112344,3 +112344,52 @@ The Needleman-Wunsch algorithm is a dynamic programming algorithm used for globa
 Differential gene expression (DGE) analysis identifies genes showing statistically significant changes in expression between groups. Tools like DESeq2 and edgeR model count data using a negative binomial distribution to handle overdispersion.
 
 ---
+
+## Kimura 2-Parameter (K2P) Model (Molecular Evolution)
+**Date:** April 26, 2026
+
+The Kimura 2-parameter model distinguishes between transitions (mutations between purines or between pyrimidines) and transversions (purine-to-pyrimidine mutations), assigning them different rate parameters (alpha and beta).
+
+---
+
+## Needleman-Wunsch Algorithm (Sequence Alignment)
+**Date:** December 26, 2025
+
+The Needleman-Wunsch algorithm is a dynamic programming algorithm used for global alignment of two sequences. It uses a similarity matrix (like BLOSUM62 or PAM250) and a gap penalty to find the optimal alignment across the entire length of the sequences.
+
+---
+
+## RNA-Seq Differential Gene Expression (Transcriptomics)
+**Date:** September 19, 2025
+
+Differential gene expression (DGE) analysis identifies genes showing statistically significant changes in expression between groups. Tools like DESeq2 and edgeR model count data using a negative binomial distribution to handle overdispersion.
+
+---
+
+## Phred Quality Score (Genomics)
+**Date:** August 19, 2025
+
+A Phred quality score (Q) measures the base-calling error probability. Q = -10 * log10(P), where P is the probability of an incorrect call. A Phred score of 30 represents a 1 in 1000 error rate (99.9% accuracy).
+
+---
+
+## ChIP-Seq (Chromatin Immunoprecipitation) (Epigenomics)
+**Date:** January 29, 2026
+
+ChIP-Seq is used to analyze protein-DNA interactions. It combines chromatin immunoprecipitation with high-throughput sequencing to identify binding sites for transcription factors and histone modifications across the genome.
+
+---
+
+## UPGMA (Unweighted Pair Group Method) (Phylogenetics)
+**Date:** December 07, 2025
+
+UPGMA is a simple agglomerative clustering method for phylogenetic tree construction. It assumes a constant rate of evolution (molecular clock hypothesis) and produces a rooted, ultrametric tree.
+
+---
+
+## AutoDock Vina Search Algorithm (Molecular Docking)
+**Date:** November 01, 2025
+
+AutoDock Vina uses an iterated local search global optimizer combined with a semi-empirical scoring function. It calculates the affinity of small molecule ligands to receptor pockets using steric, hydrophobic, and hydrogen bonding terms.
+
+---
