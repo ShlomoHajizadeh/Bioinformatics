@@ -152083,3 +152083,66 @@ The Kimura 2-parameter model distinguishes between transitions (mutations betwee
 The Kimura 2-parameter model distinguishes between transitions (mutations between purines or between pyrimidines) and transversions (purine-to-pyrimidine mutations), assigning them different rate parameters (alpha and beta).
 
 ---
+
+## AlphaFold2 pLDDT Metric (Structural Biology)
+**Date:** March 26, 2026
+
+Predicted Local Distance Difference Test (pLDDT) is the per-residue confidence metric computed by AlphaFold2. Scores >= 90 indicate very high confidence (accurate side chains), while scores < 50 indicate disordered regions.
+
+---
+
+## Gasteiger Partial Charges (Cheminformatics)
+**Date:** August 14, 2025
+
+Gasteiger-Marsili charges are calculated iteratively based on orbital electronegativity. In molecular docking, preparing receptors and ligands with obabel adds Gasteiger partial charges to accurately model electrostatic interactions.
+
+---
+
+## UPGMA (Unweighted Pair Group Method) (Phylogenetics)
+**Date:** February 27, 2026
+
+UPGMA is a simple agglomerative clustering method for phylogenetic tree construction. It assumes a constant rate of evolution (molecular clock hypothesis) and produces a rooted, ultrametric tree.
+
+---
+
+## Jukes-Cantor (JC69) Distance Model (Molecular Evolution)
+**Date:** September 20, 2025
+
+The Jukes-Cantor model assumes equal mutation rates among all nucleotides (A, C, G, T) and equal base frequencies (0.25). The evolutionary distance is calculated as d = -0.75 * ln(1 - 4/3 * p), where p is the observed proportion of differences.
+
+---
+
+## Gasteiger Partial Charges (Cheminformatics)
+**Date:** July 22, 2025
+
+Gasteiger-Marsili charges are calculated iteratively based on orbital electronegativity. In molecular docking, preparing receptors and ligands with obabel adds Gasteiger partial charges to accurately model electrostatic interactions.
+
+---
+
+## AutoDock Vina Search Algorithm (Molecular Docking)
+**Date:** July 02, 2025
+
+AutoDock Vina uses an iterated local search global optimizer combined with a semi-empirical scoring function. It calculates the affinity of small molecule ligands to receptor pockets using steric, hydrophobic, and hydrogen bonding terms.
+
+---
+
+## AutoDock Vina Search Algorithm (Molecular Docking)
+**Date:** January 08, 2026
+
+AutoDock Vina uses an iterated local search global optimizer combined with a semi-empirical scoring function. It calculates the affinity of small molecule ligands to receptor pockets using steric, hydrophobic, and hydrogen bonding terms.
+
+---
+
+## Gasteiger Partial Charges (Cheminformatics)
+**Date:** July 25, 2025
+
+Gasteiger-Marsili charges are calculated iteratively based on orbital electronegativity. In molecular docking, preparing receptors and ligands with obabel adds Gasteiger partial charges to accurately model electrostatic interactions.
+
+---
+
+## UPGMA (Unweighted Pair Group Method) (Phylogenetics)
+**Date:** March 09, 2026
+
+UPGMA is a simple agglomerative clustering method for phylogenetic tree construction. It assumes a constant rate of evolution (molecular clock hypothesis) and produces a rooted, ultrametric tree.
+
+---
