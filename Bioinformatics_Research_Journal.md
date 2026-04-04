@@ -55742,3 +55742,10 @@ Unlike global alignment, the Smith-Waterman algorithm finds the optimal local al
 UPGMA is a simple agglomerative clustering method for phylogenetic tree construction. It assumes a constant rate of evolution (molecular clock hypothesis) and produces a rooted, ultrametric tree.
 
 ---
+
+## Gasteiger Partial Charges (Cheminformatics)
+**Date:** April 05, 2026
+
+Gasteiger-Marsili charges are calculated iteratively based on orbital electronegativity. In molecular docking, preparing receptors and ligands with obabel adds Gasteiger partial charges to accurately model electrostatic interactions.
+
+---
