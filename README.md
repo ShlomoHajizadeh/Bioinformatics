@@ -1,4 +1,4 @@
-# Bioinformatics Training Curriculum and Sequencing Protocols
+# Bioinformatics Education and Sequencing Methodology Hub
 
 [![Bioinformatics](https://img.shields.io/badge/Area-Bioinformatics-green.svg)](https://github.com/SuleimanHajizadeh/Bioinformatics)
 [![Field](https://img.shields.io/badge/Field-Genomics--Education-blue.svg)](https://github.com/SuleimanHajizadeh/Bioinformatics)
@@ -6,69 +6,70 @@
 
 ## Overview
 
-This repository serves as a centralized hub for bioinformatics education and sequencing methodologies. It integrates a 30-lesson structured pathway for **Biopython**, technical **Nanopore sequencing protocols**, and scientific **career roadmaps** tailored for computational biologists.
+This repository integrates an intensive bioinformatics training curriculum and experimental sequencing protocols. It serves as a centralized hub for mastering **Biopython**-based genomic analysis and technical **Nanopore**-based surveillance of bacterial, fungal, and viral pathogens.
 
 ---
 
-## Biopython 30-Day Training Curriculum
+## Biopython Training Marathon (1–30)
 
-The repository follows a systematic pedagogical approach for mastering Biopython. Each module contains technical Jupyter Notebooks and structured assignments:
+The curriculum is built around a systematic, 30-lesson technical roadmap. Each module contains functional Jupyter Notebooks and structured practice:
 
-### Course Breakdown
-*   **Modules 1–10: Fundamentals**  
-    - Sequence object modeling, Central Dogma transcription/translation, and file I/O (SeqIO) parsing.
-*   **Modules 11–20: Advanced Mining and Alignment**  
-    - NCBI Entrez programmatic retrieval, BLAST analysis, and Multiple Sequence Alignment (MSA) using AlignIO.
-*   **Modules 21–30: Specialized Bio-computing**  
-    - Structural analysis with PDB/CIF and metagenomic data handling.
+### Course Index
+- **1–10: Core Sequence Modeling**  
+    - Central Dogma transcription, translation, and parsing of complex `SeqIO` objects.
+- **11–20: Programmatic Data Mining**  
+    - NCBI Entrez retrieval and Multiple Sequence Alignment (MSA) using `AlignIO`.
+- **21–30: Specialized Bio-computation**  
+    - Structural biology (PDB/CIF) and metagenomics data processing logic.
 
 ---
 
-## Experimental Protocols and Scientific Guidance
+## Pathogen Surveillance and Research Guidance
 
-This repository includes technical documentation for advanced sequencing and research methodologies:
+The repository includes high-level laboratory protocols and strategic scientific roadmaps:
 
 ### Nanopore Metagenomics Protocols
-*   **Rapid Surveillance:** Metagenomic sequencing protocols for bacterial, fungal, and viral pathogen monitoring using the **SQK-RPB114.24** kit.
-*   **Technical Guides:** Step-by-step laboratory "know-how" for Oxford Nanopore Technologies (ONT) workflow execution.
+Technical "know-how" for Oxford Nanopore Technologies (ONT) workflows:
+- **Rapid Pathogen Sequencing:** Laboratory methodology for the identification of viral and bacterial pathogens using the **SQK-RPB114.24** kit.
+- **Protocols:**
+    - `Know-how__Rapid_metagenomicsequencing...SQK-RPB114.24.pdf`
+    - `Protocol__Rapid_metagenomic_sequencing...SQK-RPB114.24.pdf`
 
-### Scientific Career Roadmaps (AZE)
-*   **Research Strategy:** Technical guidance (in Azerbaijani) for publishing in high-impact journals such as *Nature* and *Springer*.
-*   **Workflow Optimization:** Strategic advice on DAVID taxonomy selection and DESeq2 pipeline implementation.
+### Bioinformatic Scientific Roadmaps (AZE)
+Specialized career and academic guidance (in Azerbaijani):
+- **Strategic Implementation:** `Strategic_Career_Roadmap_for_Bioinformatics.txt`.
+- **Methodology Advice:** High-level guidance on DAVID DAVID taxonomic selection, DESeq2 pipeline benchmarking, and manuscript preparation for **Nature** and **Springer** journals.
 
 ---
 
-## Repository Documentation Structure
+## Structural Repository Overview
 
 ```text
 .
-├── Biopython/               # 30-Day Masterclass implementation
-│   ├── 1-30/                # Sequential notebooks and homework
-│   ├── Data/                # Training datasets
-│   └── img/                 # Technical diagrams
-├── Books/                   # Reference literature and manuals
-├── Advice for Bioinformatics # Strategic career roadmaps (AZE)
-└── Protocols/               # Nanopore sequencing technical documentation
+├── Biopython/               # 1-30 Technical notebooks and Homework
+├── Books/                   # Reference manuals and literature
+├── Advice for Bioinformatics # Strategic Career Roadmaps (AZE)
+├── Protocols/               # Nanopore sequencing kit documentation
+└── .vscode/                 # IDE configurations
 ```
 
 ---
 
-## Technical Stack
+## Technical Inventory
 
-- **Primary Language:** Python (3.x), R.
-- **Core Libraries:** Biopython, Pandas, Numpy, Matplotlib.
-- **Sequencing Platform:** Oxford Nanopore Technologies (ONT).
-- **Environment Management:** Conda, Jupyter.
+- **Core Languages:** Python (3.x), R.
+- **Platform:** Oxford Nanopore (ONT).
+- **Tooling:** Biopython, Conda, Jupyter.
 
 ---
 
-## Author Contact
+## Contact
 
 **Suleiman Hajizadeh**  
 Computational Biologist @ Azerbaijan  
 - **Email:** suleyman.hacizade1@gmail.com  
-- **Research Topic:** Precision Oncology, Systems Biology, and Pathogen Genomics
+- **Specialization:** Precision Oncology, Pathogen Genomics, Bioinfo-Education
 
 ---
-> [!NOTE]
-> All instructional materials are optimized for reproducibility. For individual access to the full dataset archives, please refer to the primary repository links or the author's contact.
+> [!TIP]
+> All analytical protocols are optimized for high-reproducibility. For access to individual data files (>100MB), refer to the primary repository links or the author's contact directly.
