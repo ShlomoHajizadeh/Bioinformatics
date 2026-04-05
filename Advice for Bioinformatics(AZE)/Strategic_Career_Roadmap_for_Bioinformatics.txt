@@ -4,7 +4,7 @@
 DAVID-ə gen siyahısını yükləyəndə, o sizdən avtomatik olaraq bir "Taxonomy" (canlı növü) istəyəcək və ya özü təklif edəcək. Siyahınızdakı genlər insan genləri olduğu üçün sol paneldə (və ya nəticə pəncərəsinin yuxarısında) növ olaraq mütləq **"Homo sapiens"** seçməlisiniz. Beləliklə, o, `TP53`-ü siçan və ya milçək geni kimi deyil, insana aid xərçəng geni kimi axtaracaq.
 
 ### 2. Real Bioinformatik Tədqiqatda Bu "Süni Əlavə" Edilirmi?
-**Qətiyyən yox!** Sizinlə bizim etdiyimiz sadəcə və sadəcə **Tədris Hiyləsi (Pedagogical Hack)** idi. 
+**Qətiyyən yox!** Sizinlə bizim etdiyimiz sadəcə və sadəcə **Tədris Hiyləsi (Technical Learning Strategy)** idi. 
 Niyə buna məcbur olduq? Çünki bir tələbə kimi prosesi serverdə saatlarla deyil, 15 dəqiqə ərzində görə bilməyiniz üçün istifadə etdiyiniz xam `FASTQ` faylları süni şəkildə kəsilmiş (subsampled) məlumatlar idi (orijinal datanın cəmi 0.2%-i). Real həyatda 1 xəstənin RNA-Seq faylı 10-15 Gigabayt (30-40 milyon oxunuş) olur. Real bir bioinformatik serverdə 6 xəstənin datasını (100 GB) eyni "Pipeline"-a (FastQ -> HISAT2 -> FeatureCounts -> DESeq2) salanda, **heç bir süni müdaxilə olmadan** təbii olaraq:
 *   `rowSums >= 10` filtrindən ~20,000 işlək gen keçir (Bax, bu olur real **Background**!).
 *   `padj < 0.05` şərtindən isə təbii olaraq 800 - 1500 fərqlənən gen keçir (Bax, bu da olur əsl **Significant_Genes**!).
