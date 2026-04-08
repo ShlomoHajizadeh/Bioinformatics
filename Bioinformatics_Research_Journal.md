@@ -54146,3 +54146,10 @@ UPGMA is a simple agglomerative clustering method for phylogenetic tree construc
 BLAST is a heuristic algorithm for searching sequence databases. It finds short seed matches (words) and extends them to find High-scoring Segment Pairs (HSPs), trading absolute mathematical optimality for immense search speed.
 
 ---
+
+## RNA-Seq Differential Gene Expression (Transcriptomics)
+**Date:** April 09, 2026
+
+Differential gene expression (DGE) analysis identifies genes showing statistically significant changes in expression between groups. Tools like DESeq2 and edgeR model count data using a negative binomial distribution to handle overdispersion.
+
+---
