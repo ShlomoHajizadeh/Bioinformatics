@@ -189022,3 +189022,10 @@ Unlike global alignment, the Smith-Waterman algorithm finds the optimal local al
 The Kimura 2-parameter model distinguishes between transitions (mutations between purines or between pyrimidines) and transversions (purine-to-pyrimidine mutations), assigning them different rate parameters (alpha and beta).
 
 ---
+
+## UPGMA (Unweighted Pair Group Method) (Phylogenetics)
+**Date:** April 11, 2026
+
+UPGMA is a simple agglomerative clustering method for phylogenetic tree construction. It assumes a constant rate of evolution (molecular clock hypothesis) and produces a rooted, ultrametric tree.
+
+---
