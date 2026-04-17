@@ -65262,3 +65262,10 @@ Gasteiger-Marsili charges are calculated iteratively based on orbital electroneg
 HMMs are statistical models representing probability distributions over sequences. In bioinformatics, profile HMMs are widely used by tools like HMMER to build highly sensitive sequence profiles for protein family classification.
 
 ---
+
+## RNA-Seq Differential Gene Expression (Transcriptomics)
+**Date:** April 17, 2026
+
+Differential gene expression (DGE) analysis identifies genes showing statistically significant changes in expression between groups. Tools like DESeq2 and edgeR model count data using a negative binomial distribution to handle overdispersion.
+
+---
