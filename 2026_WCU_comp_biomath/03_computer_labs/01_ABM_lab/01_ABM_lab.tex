@@ -1,0 +1,917 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Journal Article
+% LaTeX Template
+% Version 1.3 (9/9/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Frits Wenneker (http://www.howtotex.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% https://www.overleaf.com/7944267fpntrpnkztsd#/27985476/
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%----------------------------------------------------------------------------------------
+%       PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+\documentclass[paper=letter, fontsize=12pt]{article}
+\usepackage[english]{babel} % English language/hyphenation
+\usepackage{amsmath,amsfonts,amsthm} % Math packages
+\usepackage[utf8]{inputenc}
+\usepackage{float}
+\usepackage{lipsum} % Package to generate dummy text throughout this template
+\usepackage{blindtext}
+\usepackage{graphicx} 
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage[sc]{mathpazo} % Use the Palatino font
+\usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+\linespread{1.05} % Line spacing - Palatino needs more space between lines
+\usepackage{microtype} % Slightly tweak font spacing for aesthetics
+\usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+\usepackage{multicol} % Used for the two-column layout of the document
+%\usepackage[hang, small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under/above floats in tables or figures
+\usepackage{booktabs} % Horizontal rules in tables
+\usepackage{float} % Required for tables and figures in the multi-column environment - they need to be placed in specific locations with the [H] (e.g. \begin{table}[H])
+\usepackage{hyperref} % For hyperlinks in the PDF
+\usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+\usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+\usepackage{abstract} % Allows abstract customization
+\renewcommand{\abstractnamefont}{\normalfont\bfseries} % Set the "Abstract" text to bold
+\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text
+%\usepackage{titlesec} % Allows customization of titles
+
+\renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+%\renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+
+%\titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+%\titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+\newcommand{\horrule}[1]{\rule{\linewidth}{#1}} % Create horizontal rule command with 1 argument of height
+\usepackage{fancyhdr} % Headers and footers
+\pagestyle{fancy} % All pages have headers and footers
+\fancyhead{} % Blank out the default header
+\fancyfoot{} % Blank out the default footer
+
+%----------------------------------------------------------------------------------------
+% Theorem like environments
+%
+\newtheorem{theorem}{Theorem}
+%\newtheorem{proof}{Proof}
+%\theoremstyle{plain}
+\newtheorem{acknowledgement}{Acknowledgement}
+\newtheorem{algorithm}{Algorithm}
+\newtheorem{corollary}{Corollary}
+\newtheorem{definition}{Definition}
+\newtheorem{example}{Example}
+\newtheorem{lemma}{Lemma}
+\newtheorem{proposition}{Proposition}
+\newtheorem{remark}{Remark}
+\newtheorem{summary}{Summary}
+\numberwithin{equation}{section}
+
+\usepackage[
+    left = \flqq{},% 
+    right = \frqq{},% 
+    leftsub = \flq{},% 
+    rightsub = \frq{} %
+]{dirtytalk}
+
+\usepackage{geometry}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{tcolorbox}
+
+\lstset{
+    language=Python,
+    basicstyle=\ttfamily\small,
+    keywordstyle=\color{blue},
+    commentstyle=\color{gray},
+    stringstyle=\color{green!60!black},
+    showstringspaces=false,
+    frame=single,
+    breaklines=true
+}
+
+\newtcolorbox{taskbox}{
+    colback=blue!5!white,
+    colframe=blue!60!black,
+    title=Student Task
+}
+
+\newtcolorbox{aibox}{
+    colback=green!5!white,
+    colframe=green!50!black,
+    title=AI Prompt Design Task
+}
+
+\newtcolorbox{notebox}{
+    colback=yellow!8!white,
+    colframe=yellow!50!black,
+    title=Important Note
+}
+
+%----------------------------------------------------------------------------------------
+
+\fancyhead[C]{1st Computer Lab for 'Computational Biomathematics'} % Custom header text
+
+\fancyfoot[RO,LE]{F. Rupp $\bullet$ Western Caspian University \hfill \thepage} % Custom footer text
+
+%----------------------------------------------------------------------------------------
+\begin{document}
+\thispagestyle{fancy} % All pages have headers and footers
+
+\begin{center}
+\vspace{-15mm}{\fontsize{24pt}{10pt}\selectfont\textbf{Computational Biomathematics:}\\[2mm]
+\selectfont\textbf{Spatial Models of Biological Systems with AI-Enhanced Coding}}\\[7mm]
+\end{center}
+
+\begin{center}
+{\fontsize{14pt}{10pt}\selectfont\textbf{Prof. Dr. Dr. h.c. Florian Rupp \\[2mm]
+Western Caspian University}}
+\end{center}
+
+%\vspace*{0.2cm}
+%
+				%\begin{flushright}
+				%\begin{minipage}[b]{8 cm}
+				%{\it xxx}
+				%\end{minipage}\\
+				%{\sc x}
+				%\end{flushright} https://www.azquotes.com/author/38835-Brian_Kernighan
+
+\vspace*{0.7cm}
+
+\noindent Many biological systems can be understood as local interaction rules on space. The complexity we observe in nature often emerges from very simple rules applied repeatedly. In this lab, we study three biological systems using lattice-based (grid-based) models:
+\begin{enumerate}
+\item Vegetation competition on a lattice
+\item Coral reef/ sessile species competition
+\item Bacterial colony growth with diffusion-like spreading
+\end{enumerate}
+
+A central goal of this lab is not only to simulate biological systems, but also to learn how to use \textbf{AI responsibly and effectively} for scientific programming. In particular, we will practice the following workflow:
+\begin{quote}
+\textbf{Biological idea $\rightarrow$ mathematical/ computational structure $\rightarrow$ program architecture $\rightarrow$ AI prompt design $\rightarrow$ code review and refinement}
+\end{quote}
+
+After completing this lab, you should be able to:
+\begin{itemize}
+\item explain how local biological rules can generate global patterns,
+\item implement simple lattice-based biological simulations in Python,
+\item design a modular program architecture,
+\item formulate clear prompts for AI-assisted coding,
+\item critically evaluate AI-generated code.
+\end{itemize}
+
+\section*{General Setup}
+We represent space as an $N \times N$ lattice (grid). Each cell contains a biological state, for example
+\begin{multicols}{3}
+\begin{itemize}
+\item empty,
+\item grass,
+\item tree,
+\item coral,
+\item algae, or
+\item bacteria.
+\end{itemize}
+\end{multicols}
+
+We use Python together with:
+\begin{lstlisting}
+import numpy as np
+import matplotlib.pyplot as plt
+\end{lstlisting}
+
+\section*{Why Prompt Design Matters}
+When using AI for coding, it is tempting to immediately ask: ``Write me Python code for this model.'' However, in scientific programming this is often a poor strategy. Before asking AI to generate code, you should first think about:
+\begin{itemize}
+\item What biological states exist?
+\item What are the local update rules?
+\item What should be visualized?
+\item Which parts of the program should be easy to replace later?
+\item Which files or functions are needed?
+\end{itemize}
+
+\textbf{Important Note:} AI can generate code quickly, but scientific quality depends on whether \emph{you} provide a precise model description and a clear software structure.
+
+\section*{Recommended Program Architecture}
+For all three models, use a modular structure such as:
+\begin{itemize}
+\item \texttt{main.py} --- runs the simulation
+\item \texttt{initialization.py} --- creates the initial grid
+\item \texttt{dynamics.py} --- contains the update rules
+\item \texttt{visualization.py} --- plotting and animation
+\item \texttt{parameters.py} --- parameters such as $N$, $T$, probabilities
+\end{itemize}
+
+\begin{taskbox}
+Before writing any prompt, sketch the architecture of your program on paper. For each file, write down:
+\begin{itemize}
+\item its purpose,
+\item the functions it should contain,
+\item which inputs and outputs these functions should have.
+\end{itemize}
+\end{taskbox}
+
+\section*{Part 1: A General Grid Framework}
+
+\subsection*{A simple starting point}
+
+\begin{lstlisting}
+def initialize_grid(N, states):
+    return np.random.choice(states, size=(N, N))
+\end{lstlisting}
+
+\begin{lstlisting}
+def plot_grid(grid, title=""):
+    plt.imshow(grid, cmap='viridis')
+    plt.title(title)
+    plt.colorbar()
+    plt.show()
+\end{lstlisting}
+
+\subsection*{Neighborhood function}
+
+We often use the 8-neighborhood (Moore neighborhood).
+\begin{lstlisting}
+def get_neighbors(grid, i, j):
+    N = grid.shape[0]
+    neighbors = []
+    for di in [-1, 0, 1]:
+        for dj in [-1, 0, 1]:
+            if di == 0 and dj == 0:
+                continue
+            ni = (i + di) % N
+            nj = (j + dj) % N
+            neighbors.append(grid[ni, nj])
+    return neighbors
+\end{lstlisting}
+
+\begin{taskbox}
+\begin{itemize}
+\item Explain in words what the function \texttt{get\_neighbors} does.
+\item Why might periodic boundary conditions
+\[
+(i+di)\%N,\qquad (j+dj)\%N
+\]
+be useful in a simulation?
+\end{itemize}
+\end{taskbox}
+
+% ============================================================
+\section*{Part 2: Vegetation Competition on a Lattice}
+
+\subsection*{Biological Idea}
+
+We consider three states: $0$ = empty, $1$ = grass, and $2$ = tree. A possible biological interpretation is as follows:
+\begin{itemize}
+\item Empty sites may be colonized by nearby grass.
+\item Grass may develop into trees if trees are sufficiently present nearby.
+\item Trees may die due to disturbance.
+\end{itemize}
+
+\subsection*{Example Update Rule}
+
+\begin{lstlisting}
+def update_vegetation(grid):
+    new_grid = grid.copy()
+    N = grid.shape[0]
+
+    for i in range(N):
+        for j in range(N):
+            neighbors = get_neighbors(grid, i, j)
+
+            if grid[i, j] == 0:
+                if 1 in neighbors and np.random.rand() < 0.3:
+                    new_grid[i, j] = 1
+
+            elif grid[i, j] == 1:
+                if neighbors.count(2) > 3:
+                    new_grid[i, j] = 2
+
+            elif grid[i, j] == 2:
+                if np.random.rand() < 0.05:
+                    new_grid[i, j] = 0
+
+    return new_grid
+\end{lstlisting}
+
+\subsection*{Step 1: Think about the architecture}
+
+\begin{taskbox}
+Before asking AI for code, answer the following:
+\begin{enumerate}[label=\arabic*.]
+\item What is the biological state space?
+\item Which parameters should be adjustable?
+\item Which file should contain the vegetation update rule?
+\item Which file should contain the initialization?
+\item What should be visualized?
+\item How could this model later be extended?
+\end{enumerate}
+\end{taskbox}
+
+\begin{taskbox}
+Write a short architecture plan. For example:
+\begin{itemize}
+\item \texttt{parameters.py}: lattice size, simulation time, colonization probability, disturbance probability
+\item \texttt{initialization.py}: create an initial random vegetation pattern
+\item \texttt{dynamics.py}: update one time step
+\item \texttt{visualization.py}: plot lattice and counts over time
+\item \texttt{main.py}: run the simulation
+\end{itemize}
+\end{taskbox}
+
+\subsection*{Step 2: Design a good AI prompt}
+
+\begin{aibox}
+Write a prompt for an AI system that asks it to generate a modular Python program for the vegetation competition model. Your prompt should contain:
+\begin{itemize}
+\item the biological states,
+\item the update rules,
+\item the required files,
+\item the desired visualizations,
+\item the requirement that the code remain easy to extend.
+\end{itemize}
+\end{aibox}
+
+\begin{aibox}
+Compare the following two prompts:
+
+\medskip
+\textbf{Weak prompt:} \\
+``Write Python code for vegetation on a grid.''
+
+\medskip
+\textbf{Strong prompt:} \\
+A detailed prompt specifying states, update rules, file structure, adjustable parameters, and visualizations.
+
+\medskip
+Explain why the second prompt is much more likely to produce useful scientific code.
+\end{aibox}
+
+\subsection*{Step 3: Review the AI-generated code}
+
+\begin{taskbox}
+After receiving code from AI, check the following:
+\begin{itemize}
+\item Are the biological states represented correctly?
+\item Are the update rules exactly those requested?
+\item Is the code modular?
+\item Are initialization, dynamics, and visualization separated?
+\item Can parameters be changed easily?
+\item Are comments and docstrings understandable?
+\end{itemize}
+\end{taskbox}
+
+\subsection*{Simulation Task}
+
+Simulate the model for $T=50$ time steps.
+
+\begin{taskbox}
+Investigate the effect of changing:
+\begin{itemize}
+\item the initial proportion of trees,
+\item the colonization probability of grass,
+\item the disturbance probability of trees.
+\end{itemize}
+Describe how the spatial pattern changes.
+\end{taskbox}
+
+% ============================================================
+\section*{Part 3: Coral Reef/ Sessile Species Competition}
+
+\subsection*{Biological Idea}
+We consider: $0$ = empty, $1$ = coral, and $2$ = algae. A possible biological interpretation is as follows:
+\begin{itemize}
+\item Coral grows slowly and may be damaged by bleaching.
+\item Algae spreads quickly into empty sites.
+\item Coral and algae compete for space.
+\end{itemize}
+
+\subsection*{Example Update Rule}
+
+\begin{lstlisting}
+def update_coral(grid):
+    new_grid = grid.copy()
+    N = grid.shape[0]
+
+    for i in range(N):
+        for j in range(N):
+            neighbors = get_neighbors(grid, i, j)
+
+            if grid[i, j] == 0:
+                if 2 in neighbors and np.random.rand() < 0.5:
+                    new_grid[i, j] = 2
+                elif 1 in neighbors and np.random.rand() < 0.2:
+                    new_grid[i, j] = 1
+
+            elif grid[i, j] == 1:
+                if np.random.rand() < 0.02:
+                    new_grid[i, j] = 0
+
+            elif grid[i, j] == 2:
+                if neighbors.count(1) > 4:
+                    new_grid[i, j] = 1
+
+    return new_grid
+\end{lstlisting}
+
+\subsection*{Step 1: Think first, prompt later}
+
+\begin{taskbox}
+Before designing your AI prompt, answer:
+\begin{enumerate}[label=\arabic*.]
+\item Which species spreads faster?
+\item Which process represents bleaching?
+\item Which quantities should be plotted over time?
+\item Which parts of the code should remain interchangeable?
+\end{enumerate}
+\end{taskbox}
+
+\begin{taskbox}
+Write down a proposed modular architecture for this coral reef model. In particular, decide:
+\begin{itemize}
+\item how to store model parameters,
+\item how to initialize the reef,
+\item how to count the numbers of coral, algae, and empty cells,
+\item how to visualize the lattice.
+\end{itemize}
+\end{taskbox}
+
+\subsection*{Step 2: Prompt engineering task}
+
+\begin{aibox}
+Write a prompt for an AI system asking it to generate a modular Python simulation for coral--algae competition on a lattice. Your prompt should explicitly ask for:
+\begin{itemize}
+\item separate files,
+\item clear comments,
+\item adjustable bleaching probability,
+\item a lattice plot,
+\item a time-series plot of state counts.
+\end{itemize}
+\end{aibox}
+
+\begin{aibox}
+Add one sentence to your prompt that encourages future extensibility. For example, ask that the code be easy to modify later for:
+\begin{itemize}
+\item nutrient effects,
+\item climate stress,
+\item additional sessile species.
+\end{itemize}
+\end{aibox}
+
+\subsection*{Step 3: Scientific review of the result}
+
+\begin{taskbox}
+Suppose the AI-generated code runs without errors. Why is that \emph{not} enough to conclude that the code
+is scientifically correct? List at least three checks you should still perform.
+\end{taskbox}
+
+\subsection*{Simulation Task}
+Run simulations for different bleaching probabilities.
+
+\begin{taskbox}
+Explore:
+\begin{itemize}
+\item low bleaching probability,
+\item medium bleaching probability,
+\item high bleaching probability.
+\end{itemize}
+
+What happens to long-term coral survival?
+\end{taskbox}
+
+% ============================================================
+\section*{Part 4: Bacterial Colony Growth with Diffusion-Like Spreading}
+
+\subsection*{Biological Idea}
+
+We consider: $0$ = empty and $1$ = bacteria. A possible biological interpretation is as follows:
+\begin{itemize}
+\item bacteria reproduce into neighboring empty sites,
+\item growth is local,
+\item overcrowding may reduce survival,
+\item the colony spreads outward from an initial seed.
+\end{itemize}
+
+\subsection*{Example Update Rule}
+
+\begin{lstlisting}
+def update_bacteria(grid):
+    new_grid = grid.copy()
+    N = grid.shape[0]
+
+    for i in range(N):
+        for j in range(N):
+            neighbors = get_neighbors(grid, i, j)
+
+            if grid[i, j] == 0:
+                if 1 in neighbors and np.random.rand() < 0.4:
+                    new_grid[i, j] = 1
+
+            elif grid[i, j] == 1:
+                if neighbors.count(1) > 6:
+                    if np.random.rand() < 0.2:
+                        new_grid[i, j] = 0
+
+    return new_grid
+\end{lstlisting}
+
+\subsection*{Initial Condition}
+
+A simple initial condition is one bacterium in the center:
+
+\begin{lstlisting}
+grid = np.zeros((N, N))
+grid[N//2, N//2] = 1
+\end{lstlisting}
+
+\subsection*{Step 1: Architecture before prompting}
+
+\begin{taskbox}
+Think about the structure of the program. Which of the following belong in:
+\begin{itemize}
+\item \texttt{initialization.py}
+\item \texttt{dynamics.py}
+\item \texttt{visualization.py}
+\item \texttt{main.py}
+\end{itemize}
+
+\medskip
+Items to place:
+\begin{itemize}
+\item create the initial single-bacterium colony,
+\item implement spreading and overcrowding,
+\item plot the lattice,
+\item plot the number of occupied cells over time,
+\item run the simulation loop.
+\end{itemize}
+\end{taskbox}
+
+\begin{taskbox}
+Why is it useful to separate the simulation loop from the update rule? Why is it useful to separate plotting from model dynamics?
+\end{taskbox}
+
+\subsection*{Step 2: Prompt design task}
+
+\begin{aibox}
+Write a prompt for an AI system that asks for a modular Python simulation of bacterial colony growth on an $N \times N$ grid. Your prompt should specify:
+\begin{itemize}
+\item the states,
+\item the local update rules,
+\item the initial condition,
+\item the need for a lattice visualization,
+\item the need for a graph of occupied cells over time,
+\item the desired file structure.
+\end{itemize}
+\end{aibox}
+
+\begin{aibox}
+Now improve your prompt by adding one or two sentences that ask the AI to make the code easy to extend to:
+\begin{itemize}
+\item nutrient-dependent growth,
+\item diffusion of a chemical signal,
+\item multiple bacterial strains.
+\end{itemize}
+\end{aibox}
+
+\subsection*{Step 3: Review and refine}
+
+\begin{taskbox}
+After the AI generates code, inspect it and answer:
+\begin{enumerate}[label=\arabic*.]
+\item Does the implementation match the biological description?
+\item Does the colony start in the center?
+\item Are the update rules applied synchronously?
+\item Are the visualizations correct and informative?
+\item Which part of the code would you modify first if you wanted to add nutrients?
+\end{enumerate}
+\end{taskbox}
+
+\subsection*{Simulation Task}
+
+Run the model for different spreading probabilities.
+
+\begin{taskbox}
+Observe:
+\begin{itemize}
+\item how fast the colony expands,
+\item whether dense regions form,
+\item whether overcrowding changes the colony shape.
+\end{itemize}
+
+Compare your observations with biological intuition.
+\end{taskbox}
+
+% ============================================================
+\section*{Part 5: General Simulation Loop}
+
+A general simulation loop may look like this:
+
+\begin{lstlisting}
+def simulate(grid, update_func, T):
+    history = []
+    for t in range(T):
+        history.append(grid.copy())
+        grid = update_func(grid)
+    return history
+\end{lstlisting}
+
+\begin{taskbox}
+Explain why the command \texttt{grid.copy()} is important here. What could go wrong if we only wrote \texttt{history.append(grid)}?
+\end{taskbox}
+
+\section*{Part 6: How to Judge an AI Prompt}
+
+A strong prompt for scientific programming usually contains:
+\begin{itemize}
+\item the biological model,
+\item the state space,
+\item the update rules,
+\item the initial condition,
+\item the desired outputs,
+\item the program architecture,
+\item a requirement for modularity and readability.
+\end{itemize}
+
+\begin{taskbox}
+Take one of your own prompts from the earlier tasks and evaluate it according to the following checklist:
+\begin{enumerate}[label=\arabic*.]
+\item Does it describe the biology clearly?
+\item Does it specify the architecture?
+\item Does it say what should be visualized?
+\item Does it require modular code?
+\item Does it make future extensions possible?
+\end{enumerate}
+\end{taskbox}
+
+\section*{Part 7: Reflection on AI-Assisted Coding}
+
+\begin{taskbox}
+Write a short reflection (about half a page) on the following questions:
+\begin{itemize}
+\item What part of the programming task was most difficult to describe precisely?
+\item How did thinking about the architecture improve your prompt?
+\item Did the AI-generated code fully match your intended biological model?
+\item What errors or weaknesses did you detect?
+\item In what way was AI useful, and in what way was human judgment still essential?
+\end{itemize}
+\end{taskbox}
+
+\section*{Discussion Questions}
+
+\begin{enumerate}
+\item How do local rules influence global patterns?
+\item Which of the three systems is most sensitive to parameter changes?
+\item Which model is biologically the most realistic? Which is the simplest?
+\item What aspects of biology are still missing from these models?
+\item How can modular coding make scientific models easier to improve?
+\item Why is prompt design an important scientific skill when using AI?
+\end{enumerate}
+
+\section*{Advanced Extensions}
+
+\begin{itemize}
+\item Add more species.
+\item Introduce spatial heterogeneity.
+\item Include nutrients or environmental forcing.
+\item Add diffusion of chemical substances.
+\item Compare lattice-based models with differential equation models.
+\end{itemize}
+
+\section*{Key Takeaway}
+In computational biology, AI is most useful when we first think carefully about the biological assumptions and the software architecture. A strong prompt begins with a strong understanding of the model.
+
+\newpage
+% ============================================================
+\section*{Assessment and Grading Criteria}
+
+This lab evaluates not only your final simulation results, but also your ability to:
+
+\begin{itemize}
+\item translate biological ideas into computational models,
+\item design a clear program architecture,
+\item formulate high-quality AI prompts,
+\item critically evaluate AI-generated code,
+\item reflect on the role of AI in scientific work.
+\end{itemize}
+
+\subsection*{Grading Components}
+
+\begin{center}
+\begin{tabular}{|l|c|}
+\hline
+\textbf{Component} & \textbf{Weight} \\
+\hline
+Model understanding (biology + rules) & 20\% \\
+Program architecture design & 20\% \\
+AI prompt quality & 25\% \\
+Code correctness and modularity & 20\% \\
+Reflection on AI usage & 15\% \\
+\hline
+\end{tabular}
+\end{center}
+
+\bigskip
+
+\section*{Rubric for AI Prompt Design}
+
+Your AI prompts will be assessed according to the following criteria.
+
+\subsection*{1. Clarity of Biological Model}
+
+\begin{itemize}
+\item \textbf{Excellent (5):} States, rules, and assumptions are precise, unambiguous, and complete.
+\item \textbf{Good (4):} Mostly clear, minor ambiguities.
+\item \textbf{Satisfactory (3):} Basic idea present but incomplete.
+\item \textbf{Weak (2):} Important aspects missing or unclear.
+\item \textbf{Poor (1):} Model not clearly described.
+\end{itemize}
+
+\subsection*{2. Specification of Program Architecture}
+
+\begin{itemize}
+\item \textbf{Excellent (5):} Clear modular structure (files, functions, responsibilities).
+\item \textbf{Good (4):} Structure mostly specified.
+\item \textbf{Satisfactory (3):} Some structure but incomplete.
+\item \textbf{Weak (2):} Minimal structure indicated.
+\item \textbf{Poor (1):} No structure specified.
+\end{itemize}
+
+\subsection*{3. Precision of Instructions to AI}
+
+\begin{itemize}
+\item \textbf{Excellent (5):} Detailed, precise, and well-scoped instructions.
+\item \textbf{Good (4):} Clear but missing some details.
+\item \textbf{Satisfactory (3):} Understandable but vague.
+\item \textbf{Weak (2):} Ambiguous instructions.
+\item \textbf{Poor (1):} Very unclear or incomplete.
+\end{itemize}
+
+\subsection*{4. Consideration of Outputs and Visualization}
+
+\begin{itemize}
+\item \textbf{Excellent (5):} Clearly specifies what should be visualized and how.
+\item \textbf{Good (4):} Visualization mentioned but not detailed.
+\item \textbf{Satisfactory (3):} Basic output requested.
+\item \textbf{Weak (2):} Output unclear.
+\item \textbf{Poor (1):} No output specified.
+\end{itemize}
+
+\subsection*{5. Modularity and Extensibility}
+
+\begin{itemize}
+\item \textbf{Excellent (5):} Explicitly requires modular, extensible code.
+\item \textbf{Good (4):} Mentions modularity.
+\item \textbf{Satisfactory (3):} Implicit structure.
+\item \textbf{Weak (2):} Little concern for extensibility.
+\item \textbf{Poor (1):} No mention of modularity.
+\end{itemize}
+
+\subsection*{6. Scientific Awareness}
+
+\begin{itemize}
+\item \textbf{Excellent (5):} Prompt reflects awareness of validation, interpretation, or limitations.
+\item \textbf{Good (4):} Some awareness present.
+\item \textbf{Satisfactory (3):} Limited reflection.
+\item \textbf{Weak (2):} Minimal scientific thinking.
+\item \textbf{Poor (1):} No scientific considerations.
+\end{itemize}
+
+\bigskip
+
+\section*{Rubric for Code Evaluation}
+
+\subsection*{1. Correctness of Implementation}
+
+\begin{itemize}
+\item \textbf{Excellent (5):} Fully matches biological rules.
+\item \textbf{Good (4):} Minor inconsistencies.
+\item \textbf{Satisfactory (3):} Some errors but usable.
+\item \textbf{Weak (2):} Major errors.
+\item \textbf{Poor (1):} Incorrect model.
+\end{itemize}
+
+\subsection*{2. Modularity and Structure}
+
+\begin{itemize}
+\item \textbf{Excellent (5):} Clear separation of components.
+\item \textbf{Good (4):} Mostly modular.
+\item \textbf{Satisfactory (3):} Some structure.
+\item \textbf{Weak (2):} Poor organization.
+\item \textbf{Poor (1):} Monolithic code.
+\end{itemize}
+
+\subsection*{3. Readability and Documentation}
+
+\begin{itemize}
+\item \textbf{Excellent (5):} Clear comments and docstrings.
+\item \textbf{Good (4):} Mostly readable.
+\item \textbf{Satisfactory (3):} Some comments.
+\item \textbf{Weak (2):} Hard to understand.
+\item \textbf{Poor (1):} No documentation.
+\end{itemize}
+
+\bigskip
+
+\section*{Self-Assessment and Reflection}
+
+\begin{taskbox}
+Evaluate your own AI prompt using the rubric above.
+
+For each category, assign yourself a score from 1 to 5 and briefly justify your choice.
+\end{taskbox}
+
+\begin{taskbox}
+Reflect on the following:
+
+\begin{enumerate}
+\item What was the biggest improvement between your first and final prompt?
+\item Which part of the model was hardest to describe precisely?
+\item Did the AI-generated code behave as expected? If not, why?
+\item What errors did you identify in the AI output?
+\item What would you change if you had to write the prompt again?
+\end{enumerate}
+\end{taskbox}
+
+\begin{taskbox}
+Meta-question:
+
+Do you think writing a good prompt is more similar to:
+\begin{itemize}
+\item writing mathematical definitions, or
+\item writing computer code?
+\end{itemize}
+
+Explain your answer.
+\end{taskbox}
+
+\bigskip
+
+This lab is designed to emphasize that:
+
+\begin{quote}
+\textbf{AI does not replace modeling or scientific reasoning --- it amplifies it when used with precision.}
+\end{quote}
+
+Students should understand that:
+\begin{itemize}
+\item vague prompts lead to poor scientific code,
+\item clear structure leads to reusable models,
+\item verification is essential even when code runs without errors.
+\end{itemize}
+
+\bigskip
+
+\section*{Final Takeaway}
+
+\begin{quote}
+The quality of AI-generated scientific code depends directly on the quality of the prompt, and the quality of the prompt depends on the clarity of the underlying scientific thinking.
+\end{quote}
+
+
+
+%************************************************************
+%************************************************************
+%************************************************************
+
+%\begin{thebibliography}{8}
+%
+%\bibitem{...} \textsc{...} (...):\
+%		\textit{...}, ...., ....
+% A
+% B
+% C
+% D
+% E
+% F
+% G
+% H
+% I
+% J
+% K
+% L
+% M
+% N
+% O
+% P
+% Q
+% R
+% S
+% T
+% U
+% V
+% W
+% X
+% Y
+% Z
+
+%\end{thebibliography}
+
+%***********************************************************
+%***********************************************************
+
+\end{document}
