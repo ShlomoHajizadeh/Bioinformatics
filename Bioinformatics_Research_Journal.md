@@ -56988,3 +56988,10 @@ ChIP-Seq is used to analyze protein-DNA interactions. It combines chromatin immu
 HMMs are statistical models representing probability distributions over sequences. In bioinformatics, profile HMMs are widely used by tools like HMMER to build highly sensitive sequence profiles for protein family classification.
 
 ---
+
+## Codon Usage Bias (Molecular Biology)
+**Date:** April 23, 2026
+
+Codon usage bias refers to differences in the frequency of occurrence of synonymous codons in coding DNA. It varies between organisms and is highly correlated with tRNA abundance and translation efficiency.
+
+---
