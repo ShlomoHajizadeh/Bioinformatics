@@ -58143,3 +58143,10 @@ Predicted Local Distance Difference Test (pLDDT) is the per-residue confidence m
 Gasteiger-Marsili charges are calculated iteratively based on orbital electronegativity. In molecular docking, preparing receptors and ligands with obabel adds Gasteiger partial charges to accurately model electrostatic interactions.
 
 ---
+
+## Hidden Markov Models (HMMs) (Sequence Analysis)
+**Date:** April 23, 2026
+
+HMMs are statistical models representing probability distributions over sequences. In bioinformatics, profile HMMs are widely used by tools like HMMER to build highly sensitive sequence profiles for protein family classification.
+
+---
