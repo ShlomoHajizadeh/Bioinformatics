@@ -174882,3 +174882,73 @@ Predicted Local Distance Difference Test (pLDDT) is the per-residue confidence m
 A Phred quality score (Q) measures the base-calling error probability. Q = -10 * log10(P), where P is the probability of an incorrect call. A Phred score of 30 represents a 1 in 1000 error rate (99.9% accuracy).
 
 ---
+
+## Neighbor-Joining (NJ) Trees (Phylogenetics)
+**Date:** December 15, 2025
+
+Neighbor-joining is a bottom-up clustering method used to construct phylogenetic trees. It starts with a star-like tree and iteratively pairs nodes that minimize the total branch length, producing an unrooted tree.
+
+---
+
+## BLAST (Basic Local Alignment Search Tool) (Sequence Alignment)
+**Date:** January 16, 2026
+
+BLAST is a heuristic algorithm for searching sequence databases. It finds short seed matches (words) and extends them to find High-scoring Segment Pairs (HSPs), trading absolute mathematical optimality for immense search speed.
+
+---
+
+## Hidden Markov Models (HMMs) (Sequence Analysis)
+**Date:** September 09, 2025
+
+HMMs are statistical models representing probability distributions over sequences. In bioinformatics, profile HMMs are widely used by tools like HMMER to build highly sensitive sequence profiles for protein family classification.
+
+---
+
+## Neighbor-Joining (NJ) Trees (Phylogenetics)
+**Date:** April 21, 2026
+
+Neighbor-joining is a bottom-up clustering method used to construct phylogenetic trees. It starts with a star-like tree and iteratively pairs nodes that minimize the total branch length, producing an unrooted tree.
+
+---
+
+## Jukes-Cantor (JC69) Distance Model (Molecular Evolution)
+**Date:** February 11, 2026
+
+The Jukes-Cantor model assumes equal mutation rates among all nucleotides (A, C, G, T) and equal base frequencies (0.25). The evolutionary distance is calculated as d = -0.75 * ln(1 - 4/3 * p), where p is the observed proportion of differences.
+
+---
+
+## AlphaFold2 pLDDT Metric (Structural Biology)
+**Date:** August 26, 2025
+
+Predicted Local Distance Difference Test (pLDDT) is the per-residue confidence metric computed by AlphaFold2. Scores >= 90 indicate very high confidence (accurate side chains), while scores < 50 indicate disordered regions.
+
+---
+
+## BLAST (Basic Local Alignment Search Tool) (Sequence Alignment)
+**Date:** August 18, 2025
+
+BLAST is a heuristic algorithm for searching sequence databases. It finds short seed matches (words) and extends them to find High-scoring Segment Pairs (HSPs), trading absolute mathematical optimality for immense search speed.
+
+---
+
+## Gasteiger Partial Charges (Cheminformatics)
+**Date:** December 24, 2025
+
+Gasteiger-Marsili charges are calculated iteratively based on orbital electronegativity. In molecular docking, preparing receptors and ligands with obabel adds Gasteiger partial charges to accurately model electrostatic interactions.
+
+---
+
+## BLAST (Basic Local Alignment Search Tool) (Sequence Alignment)
+**Date:** June 15, 2025
+
+BLAST is a heuristic algorithm for searching sequence databases. It finds short seed matches (words) and extends them to find High-scoring Segment Pairs (HSPs), trading absolute mathematical optimality for immense search speed.
+
+---
+
+## BLAST (Basic Local Alignment Search Tool) (Sequence Alignment)
+**Date:** May 06, 2026
+
+BLAST is a heuristic algorithm for searching sequence databases. It finds short seed matches (words) and extends them to find High-scoring Segment Pairs (HSPs), trading absolute mathematical optimality for immense search speed.
+
+---
