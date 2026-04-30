@@ -48868,3 +48868,10 @@ The Jukes-Cantor model assumes equal mutation rates among all nucleotides (A, C,
 Predicted Local Distance Difference Test (pLDDT) is the per-residue confidence metric computed by AlphaFold2. Scores >= 90 indicate very high confidence (accurate side chains), while scores < 50 indicate disordered regions.
 
 ---
+
+## Smith-Waterman Algorithm (Sequence Alignment)
+**Date:** May 01, 2026
+
+Unlike global alignment, the Smith-Waterman algorithm finds the optimal local alignment between two sequences. It prevents negative scores in the dynamic programming matrix, meaning alignments can start and end anywhere when similarity is high.
+
+---
