@@ -59032,3 +59032,10 @@ The Jukes-Cantor model assumes equal mutation rates among all nucleotides (A, C,
 Unlike global alignment, the Smith-Waterman algorithm finds the optimal local alignment between two sequences. It prevents negative scores in the dynamic programming matrix, meaning alignments can start and end anywhere when similarity is high.
 
 ---
+
+## Smith-Waterman Algorithm (Sequence Alignment)
+**Date:** May 02, 2026
+
+Unlike global alignment, the Smith-Waterman algorithm finds the optimal local alignment between two sequences. It prevents negative scores in the dynamic programming matrix, meaning alignments can start and end anywhere when similarity is high.
+
+---
