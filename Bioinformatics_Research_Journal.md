@@ -88033,3 +88033,10 @@ The Jukes-Cantor model assumes equal mutation rates among all nucleotides (A, C,
 Neighbor-joining is a bottom-up clustering method used to construct phylogenetic trees. It starts with a star-like tree and iteratively pairs nodes that minimize the total branch length, producing an unrooted tree.
 
 ---
+
+## Hidden Markov Models (HMMs) (Sequence Analysis)
+**Date:** May 02, 2026
+
+HMMs are statistical models representing probability distributions over sequences. In bioinformatics, profile HMMs are widely used by tools like HMMER to build highly sensitive sequence profiles for protein family classification.
+
+---
