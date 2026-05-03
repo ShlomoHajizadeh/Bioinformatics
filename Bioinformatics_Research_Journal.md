@@ -68580,3 +68580,10 @@ Unlike global alignment, the Smith-Waterman algorithm finds the optimal local al
 Differential gene expression (DGE) analysis identifies genes showing statistically significant changes in expression between groups. Tools like DESeq2 and edgeR model count data using a negative binomial distribution to handle overdispersion.
 
 ---
+
+## RNA-Seq Differential Gene Expression (Transcriptomics)
+**Date:** May 03, 2026
+
+Differential gene expression (DGE) analysis identifies genes showing statistically significant changes in expression between groups. Tools like DESeq2 and edgeR model count data using a negative binomial distribution to handle overdispersion.
+
+---
