@@ -91064,3 +91064,10 @@ AutoDock Vina uses an iterated local search global optimizer combined with a sem
 Codon usage bias refers to differences in the frequency of occurrence of synonymous codons in coding DNA. It varies between organisms and is highly correlated with tRNA abundance and translation efficiency.
 
 ---
+
+## Smith-Waterman Algorithm (Sequence Alignment)
+**Date:** May 04, 2026
+
+Unlike global alignment, the Smith-Waterman algorithm finds the optimal local alignment between two sequences. It prevents negative scores in the dynamic programming matrix, meaning alignments can start and end anywhere when similarity is high.
+
+---
