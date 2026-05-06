@@ -48973,3 +48973,10 @@ AutoDock Vina uses an iterated local search global optimizer combined with a sem
 UPGMA is a simple agglomerative clustering method for phylogenetic tree construction. It assumes a constant rate of evolution (molecular clock hypothesis) and produces a rooted, ultrametric tree.
 
 ---
+
+## AlphaFold2 pLDDT Metric (Structural Biology)
+**Date:** May 06, 2026
+
+Predicted Local Distance Difference Test (pLDDT) is the per-residue confidence metric computed by AlphaFold2. Scores >= 90 indicate very high confidence (accurate side chains), while scores < 50 indicate disordered regions.
+
+---
