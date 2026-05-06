@@ -57303,3 +57303,10 @@ Codon usage bias refers to differences in the frequency of occurrence of synonym
 The Jukes-Cantor model assumes equal mutation rates among all nucleotides (A, C, G, T) and equal base frequencies (0.25). The evolutionary distance is calculated as d = -0.75 * ln(1 - 4/3 * p), where p is the observed proportion of differences.
 
 ---
+
+## Jukes-Cantor (JC69) Distance Model (Molecular Evolution)
+**Date:** May 07, 2026
+
+The Jukes-Cantor model assumes equal mutation rates among all nucleotides (A, C, G, T) and equal base frequencies (0.25). The evolutionary distance is calculated as d = -0.75 * ln(1 - 4/3 * p), where p is the observed proportion of differences.
+
+---
