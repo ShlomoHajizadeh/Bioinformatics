@@ -52662,3 +52662,10 @@ The Needleman-Wunsch algorithm is a dynamic programming algorithm used for globa
 ChIP-Seq is used to analyze protein-DNA interactions. It combines chromatin immunoprecipitation with high-throughput sequencing to identify binding sites for transcription factors and histone modifications across the genome.
 
 ---
+
+## Gasteiger Partial Charges (Cheminformatics)
+**Date:** May 08, 2026
+
+Gasteiger-Marsili charges are calculated iteratively based on orbital electronegativity. In molecular docking, preparing receptors and ligands with obabel adds Gasteiger partial charges to accurately model electrostatic interactions.
+
+---
