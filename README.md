@@ -1,75 +1,101 @@
-# Bioinformatics Education and Sequencing Methodology Hub
+# 📚 Bioinformatics Education & Research Methodology Hub
 
-[![Bioinformatics](https://img.shields.io/badge/Area-Bioinformatics-green.svg)](https://github.com/SuleimanHajizadeh/Bioinformatics)
-[![Field](https://img.shields.io/badge/Field-Genomics--Education-blue.svg)](https://github.com/SuleimanHajizadeh/Bioinformatics)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+[![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)](https://www.r-project.org/)
+[![Nanopore](https://img.shields.io/badge/Platform-Oxford_Nanopore-0084CE?style=flat-square)](https://nanoporetech.com/)
+[![Cambridge ML](https://img.shields.io/badge/Curriculum-Cambridge_ML_Mathematics-8B0000?style=flat-square)](https://mlg.eng.cam.ac.uk/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
-## Overview
+## 📌 Overview
 
-This repository integrates an intensive bioinformatics training curriculum and experimental sequencing protocols. It serves as a centralized hub for mastering **Biopython**-based genomic analysis and technical **Nanopore**-based surveillance of bacterial, fungal, and viral pathogens.
-
----
-
-## Biopython Training Marathon (1–30)
-
-The curriculum is built around a systematic, 30-lesson technical roadmap. Each module contains functional Jupyter Notebooks and structured practice:
-
-### Course Index
-- **1–10: Core Sequence Modeling**  
-    - Central Dogma transcription, translation, and parsing of complex `SeqIO` objects.
-- **11–20: Programmatic Data Mining**  
-    - NCBI Entrez retrieval and Multiple Sequence Alignment (MSA) using `AlignIO`.
-- **21–30: Specialized Bio-computation**  
-    - Structural biology (PDB/CIF) and metagenomics data processing logic.
+This repository is a **centralized knowledge hub** for bioinformatics education, sequencing methodology, and advanced mathematical foundations for machine learning in biology. It integrates structured Biopython training, Oxford Nanopore sequencing protocols, and the official **Cambridge University Mathematics of Machine Learning** curriculum.
 
 ---
 
-## Pathogen Surveillance and Research Guidance
+## 🗂️ Repository Contents
 
-The repository includes high-level laboratory protocols and strategic scientific roadmaps:
+### 1. 🧬 Biopython Training Curriculum (30 Modules)
 
-### Nanopore Metagenomics Protocols
-Technical "know-how" for Oxford Nanopore Technologies (ONT) workflows:
-- **Rapid Pathogen Sequencing:** Laboratory methodology for the identification of viral and bacterial pathogens using the **SQK-RPB114.24** kit.
-- **Protocols:**
-    - `Know-how__Rapid_metagenomicsequencing...SQK-RPB114.24.pdf`
-    - `Protocol__Rapid_metagenomic_sequencing...SQK-RPB114.24.pdf`
+A systematic, 30-lesson roadmap for mastering programmatic biology:
 
-### Bioinformatic Scientific Roadmaps (AZE)
-Specialized career and academic guidance (in Azerbaijani):
-- **Strategic Implementation:** `Strategic_Career_Roadmap_for_Bioinformatics.txt`.
-- **Methodology Advice:** High-level guidance on DAVID DAVID taxonomic selection, DESeq2 pipeline benchmarking, and manuscript preparation for **Nature** and **Springer** journals.
+```
+Biopython/
+├── 1–10/    # Sequence modeling: SeqIO, transcription, translation, FASTA/GenBank
+├── 11–20/   # NCBI Entrez querying, AlignIO, Multiple Sequence Alignment
+├── 21–30/   # PDB/CIF structural data, metagenomics, advanced pipelines
+```
 
----
+Covers: `SeqIO` · `AlignIO` · `Entrez` · `BLAST` · `PDB` · `phylo` modules
 
-## Structural Repository Overview
+### 2. 🎓 Cambridge Mathematics of Machine Learning
 
-```text
-.
-├── Biopython/               # 1-30 Technical notebooks and Homework
-├── Books/                   # Reference manuals and literature
-├── Advice for Bioinformatics # Strategic Career Roadmaps (AZE)
-├── Protocols/               # Nanopore sequencing kit documentation
-└── .vscode/                 # IDE configurations
+This directory contains the **official lecture notes, problem sets, and textbooks** from the University of Cambridge's Mathematics of Machine Learning course:
+
+```
+Cambridge-Teaching-Mathematics-of-Machine-Learning/
+├── lecture1.pdf – lecture14.pdf   # Full lecture series
+├── 2016Lecture_DeepLearning.pdf   # Deep Learning lectures (historical)
+├── 2017Lecture_DeepLearning.pdf
+├── notes.pdf / notes_cur.pdf      # Comprehensive course notes
+├── ltfp_book.pdf                  # "Learning Theory from First Principles"
+├── understanding-machine-learning-theory-algorithms.pdf
+├── Qu1.pdf – Qu3.pdf              # Problem sets
+├── revision.pdf / revision_sol.pdf # Revision materials + solutions
+├── lectureRL.pdf                  # Reinforcement Learning
+├── R_lectures/                    # R-based statistical learning materials
+└── ocw.mit.edu/                   # MIT OpenCourseWare supplementary materials
+```
+
+> These materials form the mathematical backbone for applying ML to genomic data — directly relevant to computational biology research at the graduate level.
+
+### 3. 🦠 Oxford Nanopore Sequencing Protocols
+
+Laboratory-grade documentation for rapid pathogen surveillance:
+
+| Document | Description |
+|---------|-------------|
+| `Know-how__Rapid_metagenomicsequencing...SQK-RPB114.24.pdf` | Practical know-how for ONT metagenomics |
+| `Protocol__Rapid_metagenomic_sequencing...SQK-RPB114.24.pdf` | Step-by-step SQK-RPB114.24 protocol |
+
+**Application:** Real-time identification of bacterial, fungal, and viral pathogens using Oxford Nanopore MinION/GridION platforms.
+
+### 4. 📖 Reference Literature
+
+```
+Books/
+└── Bioinformatics for Beginners, January 2025.pdf
 ```
 
 ---
 
-## Technical Inventory
+## 🧰 Technical Stack
 
-- **Core Languages:** Python (3.x), R.
-- **Platform:** Oxford Nanopore (ONT).
-- **Tooling:** Biopython, Conda, Jupyter.
+| Domain | Tools |
+|--------|-------|
+| Sequence Analysis | Biopython, BioPandas |
+| Machine Learning | NumPy, SciPy, scikit-learn |
+| Statistical Computing | R, Python |
+| Sequencing | Oxford Nanopore (ONT), SQK-RPB114.24 |
+| Visualization | Matplotlib, ggplot2 |
+
+---
+
+## 🔗 Related Repositories
+
+| Repository | Focus |
+|-----------|-------|
+| [Bioinformatics-analysis](https://github.com/SuleimanHajizadeh/Bioinformatics-analysis) | RNA-seq · TNBC · Clinical genomics pipelines |
+| [IMBB](https://github.com/SuleimanHajizadeh/IMBB) | Plant genomics · Wheat heat-stress · R pipelines |
+| [Biopython-Practised](https://github.com/SuleimanHajizadeh/Biopython-Practised) | Biopython exercises · Protein-ligand · ANOVA |
+| [MEGA-Software](https://github.com/SuleimanHajizadeh/MEGA-Software-Molecular-Evolutionary-Genetics-Analysis) | Molecular evolution · Phylogenomics · MEGA12 |
 
 ---
 
-## Contact
+## 🎓 Academic Context
 
-**Suleiman Hajizadeh**  
-Computational Biologist @ Azerbaijan  
-- **Email:** suleyman.hacizade1@gmail.com  
-- **Specialization:** Precision Oncology, Pathogen Genomics, Bioinfo-Education
+This repository reflects a deliberate, structured approach to building the mathematical and computational foundations necessary for advanced research in computational biology — including self-study of the Cambridge ML mathematics curriculum in preparation for graduate studies.
 
 ---
-> [!TIP]
-> All analytical protocols are optimized for high-reproducibility. For access to individual data files (>100MB), refer to the primary repository links or the author's contact directly.
+
+**Author:** Suleiman Hajizadeh | Bioinformatician @ IMBB, Azerbaijan  
+📧 suleyman.hacizade1@gmail.com
