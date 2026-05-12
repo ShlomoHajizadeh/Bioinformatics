@@ -64772,3 +64772,10 @@ Unlike global alignment, the Smith-Waterman algorithm finds the optimal local al
 HMMs are statistical models representing probability distributions over sequences. In bioinformatics, profile HMMs are widely used by tools like HMMER to build highly sensitive sequence profiles for protein family classification.
 
 ---
+
+## Codon Usage Bias (Molecular Biology)
+**Date:** May 12, 2026
+
+Codon usage bias refers to differences in the frequency of occurrence of synonymous codons in coding DNA. It varies between organisms and is highly correlated with tRNA abundance and translation efficiency.
+
+---
