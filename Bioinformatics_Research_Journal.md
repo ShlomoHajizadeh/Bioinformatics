@@ -57625,3 +57625,10 @@ ChIP-Seq is used to analyze protein-DNA interactions. It combines chromatin immu
 ChIP-Seq is used to analyze protein-DNA interactions. It combines chromatin immunoprecipitation with high-throughput sequencing to identify binding sites for transcription factors and histone modifications across the genome.
 
 ---
+
+## AutoDock Vina Search Algorithm (Molecular Docking)
+**Date:** May 14, 2026
+
+AutoDock Vina uses an iterated local search global optimizer combined with a semi-empirical scoring function. It calculates the affinity of small molecule ligands to receptor pockets using steric, hydrophobic, and hydrogen bonding terms.
+
+---
