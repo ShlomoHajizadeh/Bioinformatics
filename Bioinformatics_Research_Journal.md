@@ -42078,3 +42078,10 @@ Codon usage bias refers to differences in the frequency of occurrence of synonym
 The Kimura 2-parameter model distinguishes between transitions (mutations between purines or between pyrimidines) and transversions (purine-to-pyrimidine mutations), assigning them different rate parameters (alpha and beta).
 
 ---
+
+## Phred Quality Score (Genomics)
+**Date:** May 21, 2026
+
+A Phred quality score (Q) measures the base-calling error probability. Q = -10 * log10(P), where P is the probability of an incorrect call. A Phred score of 30 represents a 1 in 1000 error rate (99.9% accuracy).
+
+---
