@@ -194391,3 +194391,10 @@ The Needleman-Wunsch algorithm is a dynamic programming algorithm used for globa
 Predicted Local Distance Difference Test (pLDDT) is the per-residue confidence metric computed by AlphaFold2. Scores >= 90 indicate very high confidence (accurate side chains), while scores < 50 indicate disordered regions.
 
 ---
+
+## AlphaFold2 pLDDT Metric (Structural Biology)
+**Date:** May 23, 2026
+
+Predicted Local Distance Difference Test (pLDDT) is the per-residue confidence metric computed by AlphaFold2. Scores >= 90 indicate very high confidence (accurate side chains), while scores < 50 indicate disordered regions.
+
+---
