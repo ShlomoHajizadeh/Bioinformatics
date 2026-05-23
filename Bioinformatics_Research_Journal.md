@@ -194384,3 +194384,10 @@ Predicted Local Distance Difference Test (pLDDT) is the per-residue confidence m
 The Needleman-Wunsch algorithm is a dynamic programming algorithm used for global alignment of two sequences. It uses a similarity matrix (like BLOSUM62 or PAM250) and a gap penalty to find the optimal alignment across the entire length of the sequences.
 
 ---
+
+## AlphaFold2 pLDDT Metric (Structural Biology)
+**Date:** May 23, 2026
+
+Predicted Local Distance Difference Test (pLDDT) is the per-residue confidence metric computed by AlphaFold2. Scores >= 90 indicate very high confidence (accurate side chains), while scores < 50 indicate disordered regions.
+
+---
