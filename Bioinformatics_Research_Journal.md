@@ -39684,3 +39684,10 @@ ChIP-Seq is used to analyze protein-DNA interactions. It combines chromatin immu
 BLAST is a heuristic algorithm for searching sequence databases. It finds short seed matches (words) and extends them to find High-scoring Segment Pairs (HSPs), trading absolute mathematical optimality for immense search speed.
 
 ---
+
+## Phred Quality Score (Genomics)
+**Date:** May 25, 2026
+
+A Phred quality score (Q) measures the base-calling error probability. Q = -10 * log10(P), where P is the probability of an incorrect call. A Phred score of 30 represents a 1 in 1000 error rate (99.9% accuracy).
+
+---
