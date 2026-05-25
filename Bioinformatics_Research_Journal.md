@@ -49498,3 +49498,10 @@ Differential gene expression (DGE) analysis identifies genes showing statistical
 A Phred quality score (Q) measures the base-calling error probability. Q = -10 * log10(P), where P is the probability of an incorrect call. A Phred score of 30 represents a 1 in 1000 error rate (99.9% accuracy).
 
 ---
+
+## RNA-Seq Differential Gene Expression (Transcriptomics)
+**Date:** May 25, 2026
+
+Differential gene expression (DGE) analysis identifies genes showing statistically significant changes in expression between groups. Tools like DESeq2 and edgeR model count data using a negative binomial distribution to handle overdispersion.
+
+---
