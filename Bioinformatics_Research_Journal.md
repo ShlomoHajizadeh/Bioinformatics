@@ -50030,3 +50030,10 @@ The Kimura 2-parameter model distinguishes between transitions (mutations betwee
 UPGMA is a simple agglomerative clustering method for phylogenetic tree construction. It assumes a constant rate of evolution (molecular clock hypothesis) and produces a rooted, ultrametric tree.
 
 ---
+
+## RNA-Seq Differential Gene Expression (Transcriptomics)
+**Date:** May 29, 2026
+
+Differential gene expression (DGE) analysis identifies genes showing statistically significant changes in expression between groups. Tools like DESeq2 and edgeR model count data using a negative binomial distribution to handle overdispersion.
+
+---
