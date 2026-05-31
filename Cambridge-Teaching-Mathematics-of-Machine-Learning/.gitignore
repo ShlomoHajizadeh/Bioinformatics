@@ -1,0 +1,11 @@
+# Ignore cached website files (MIT OCW downloaded pages)
+ocw.mit.edu/
+lectures/
+*.html
+*.css
+*.js
+*.ttf
+*.woff
+*.woff2
+*.svg
+*.png
