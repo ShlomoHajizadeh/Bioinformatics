@@ -56106,3 +56106,10 @@ The Needleman-Wunsch algorithm is a dynamic programming algorithm used for globa
 Codon usage bias refers to differences in the frequency of occurrence of synonymous codons in coding DNA. It varies between organisms and is highly correlated with tRNA abundance and translation efficiency.
 
 ---
+
+## Hidden Markov Models (HMMs) (Sequence Analysis)
+**Date:** June 03, 2026
+
+HMMs are statistical models representing probability distributions over sequences. In bioinformatics, profile HMMs are widely used by tools like HMMER to build highly sensitive sequence profiles for protein family classification.
+
+---
