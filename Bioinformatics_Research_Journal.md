@@ -65983,3 +65983,10 @@ The Kimura 2-parameter model distinguishes between transitions (mutations betwee
 Differential gene expression (DGE) analysis identifies genes showing statistically significant changes in expression between groups. Tools like DESeq2 and edgeR model count data using a negative binomial distribution to handle overdispersion.
 
 ---
+
+## RNA-Seq Differential Gene Expression (Transcriptomics)
+**Date:** June 04, 2026
+
+Differential gene expression (DGE) analysis identifies genes showing statistically significant changes in expression between groups. Tools like DESeq2 and edgeR model count data using a negative binomial distribution to handle overdispersion.
+
+---
