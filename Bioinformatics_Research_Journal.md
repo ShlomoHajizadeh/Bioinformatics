@@ -44598,3 +44598,10 @@ The Jukes-Cantor model assumes equal mutation rates among all nucleotides (A, C,
 AutoDock Vina uses an iterated local search global optimizer combined with a semi-empirical scoring function. It calculates the affinity of small molecule ligands to receptor pockets using steric, hydrophobic, and hydrogen bonding terms.
 
 ---
+
+## Codon Usage Bias (Molecular Biology)
+**Date:** June 11, 2026
+
+Codon usage bias refers to differences in the frequency of occurrence of synonymous codons in coding DNA. It varies between organisms and is highly correlated with tRNA abundance and translation efficiency.
+
+---
