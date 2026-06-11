@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Advanced Computational Structural Biology & Protein Biophysics Analyzer
-Developed for Cambridge PhD Portfolio Upgrades
+Developed for Cambridge MPhil Portfolio Upgrades
 Author: Suleyman Hajizadeh
 Date: June 1, 2026
 
