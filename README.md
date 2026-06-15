@@ -64,6 +64,34 @@ Practical know-how and protocols for rapid pathogen surveillance (SQK-RPB114.24 
 
 ---
 
+## 🔬 Mathematical & Algorithmic Foundations
+
+To prepare for Cambridge University's mathematical machine learning standards, our biophysical and genomic analysis modules implement algorithms from their statistical definitions:
+
+### 1. Genomic GC-Skew Windowing
+To locate replication origins ($ori$) and termini in bacterial and viral genomes, we compute GC-skew over a sliding window:
+$$S_{GC} = \frac{C - G}{C + G}$$
+where $C$ and $G$ represent the frequencies of cytosine and guanine bases within the window, respectively.
+
+---
+
+### 2. Kyte-Doolittle Hydrophobic Profile Windowing
+For a polypeptide sequence of length $L$ and window size $w$ (typically 9 or 19 residues), the local hydrophobicity score at position $i$ is calculated as:
+$$H_i = \frac{1}{2w + 1} \sum_{j=-w}^{w} h_{i+j}$$
+where $h_k$ is the hydropathy index of the residue at position $k$ according to the Kyte-Doolittle scale.
+
+---
+
+### 3. Miyazawa-Jernigan Statistical Contact Potentials
+The non-covalent folding free energy ($E$) of a protein model is estimated using a simplified residue-contact energy grid:
+$$E = \sum_{i < j} e(R_i, R_j) \cdot \mathbb{I}(d(C_{\alpha,i}, C_{\alpha,j}) \leq d_{\text{cutoff}})$$
+where:
+* $e(R_i, R_j)$ is the statistical contact energy between residue types $R_i$ and $R_j$ defined by the Miyazawa-Jernigan matrix.
+* $d(C_{\alpha,i}, C_{\alpha,j})$ is the 3D Euclidean distance between the Carbon-Alpha atoms of residues $i$ and $j$.
+* $\mathbb{I}(\cdot)$ is the indicator function flagging a physical contact (typically $d_{\text{cutoff}} = 6.5\text{ Å}$ or $8.0\text{ Å}$).
+
+---
+
 ## 🔗 Related Portfolios
 
 This hub links directly to other specialized codebases:
