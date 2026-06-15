@@ -1,0 +1,14 @@
+# System files
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+
+# IDEs and Editors
+.vscode/
+.idea/
+
+# Large compiled assets or slides
+**/*.pptx
+**/*.mp4
+**/*.pdf
