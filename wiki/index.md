@@ -7,6 +7,7 @@ Welcome to the compiled Bioinformatics & Computational Biology Knowledge Base.
 ## 📌 Master Catalog
 
 ### 🔬 Syntheses & Theses (`wiki/syntheses/`)
+- [[High-Dimensional-Machine-Learning-in-Genomics]] — Statistical regularization, sparse $L_1$ biomarker selection, and ensemble learning in $p \gg n$ genomic regimes.
 - [[Structural-Biophysics-vs-AI-Folding]] — Cross-validation framework comparing empirical biophysics (MJ potentials, SASA, B-factors) against deep learning confidence metrics (pLDDT, PAE).
 
 ---
@@ -20,8 +21,10 @@ Welcome to the compiled Bioinformatics & Computational Biology Knowledge Base.
 - [[Bio-Phylo]] — Biopython phylogenetics and evolutionary tree reconstruction module.
 - [[Bio-SeqIO]] — Biopython unified sequence input/output parser and converter.
 - [[Biopython]] — Core computational biology and bioinformatics library in Python.
+- [[Cambridge-ML-Math]] — Cambridge University Mathematics of Machine Learning curriculum.
 - [[Genomic-Analyzer]] — CLI tool for FASTA processing, transcription/translation, and Hamming-distance SNP detection.
 - [[Insulin-1COH]] — High-resolution (1.50 Å) human insulin crystal structure used for geometric & thermodynamic benchmarking.
+- [[Nextflow-WDL]] — Declarative workflow orchestrators and nf-core reproducible pipeline infrastructure.
 - [[Oxford-Nanopore-Sequencing]] — Third-generation single-molecule sequencing platform (MinION/GridION).
 - [[Protein-3D-Metrics]] — Structural bioinformatics tool for PDB coordinate parsing and 3D backbone visualization.
 - [[Protein-Computational-Analysis]] — Biophysics analyzer computing hydrophobic core packing, MJ contact energies, and rigidity correlations.
@@ -32,10 +35,15 @@ Welcome to the compiled Bioinformatics & Computational Biology Knowledge Base.
 
 ### 📐 Concepts & Algorithms (`wiki/concepts/`)
 *Theoretical models, mathematical foundations, and bioinformatic algorithms.*
+- [[AlphaFold-Programmatic-API]] — REST API architecture for automated 3D structure and PAE error matrix retrieval.
 - [[B-Factor-Thermal-Displacement]] — Isotropic thermal displacement factor and structural rigidity indicator.
+- [[Bias-Variance-Tradeoff]] — Mathematical decomposition of estimation error and cross-validation model selection.
+- [[Bioinformatics-Workflow-Management]] — Containerization, dataflow execution, and HPC/cloud scalability standards.
+- [[Boosting-Theory-AdaBoost]] — Exponential loss minimization, discrete AdaBoost, and gradient boosted trees.
 - [[GC-Skew]] — Windowed metric for detecting replication origin/terminus in circular genomes.
 - [[Hamming-Distance-Genomics]] — Point mutation and SNP quantification metric between homologous sequences.
 - [[Kyte-Doolittle-Hydropathy]] — Sliding-window hydrophobicity scale to identify transmembrane domains and hydrophobic cores.
+- [[L1-vs-L2-High-Dimensional-Genomics]] — Lasso exact sparsity vs. Ridge shrinkage in high-dimensional $p \gg n$ biology.
 - [[Miyazawa-Jernigan-Potentials]] — Statistical residue-contact free energy matrix for structural decoy ranking.
 - [[Multiple-Sequence-Alignment]] — Algorithms and scoring matrices for multi-sequence biological homology.
 - [[Phylogenetic-Tree-Reconstruction]] — Mathematical distance, parsimony, and likelihood tree inference.
@@ -46,7 +54,10 @@ Welcome to the compiled Bioinformatics & Computational Biology Knowledge Base.
 
 ### 📑 Source Summaries (`wiki/summaries/`)
 *Distillations of raw literature, papers, protocols, and codebases.*
+- [[alphafold-db-programmatic-access]] — Distillation of AlphaFold Database REST API protocols and metrics.
 - [[biopython-curriculum-30-modules]] — Comprehensive 30-module Biopython training pipeline distillation.
+- [[cambridge-ml-mathematics-lectures]] — Cambridge University ML mathematical theory and R simulations distillation.
+- [[solvien-bioinformatics-workflow-management]] — Solvien Research whitepaper distillation on Nextflow, WDL, and nf-core.
 - [[starter-kit-genomic-analyzer]] — Distillation of `starter_kit/genomic_analyzer.py` algorithms and CLI workflows.
 - [[starter-kit-protein-3d-metrics]] — Distillation of `starter_kit/protein_3d_metrics.py` PDB parsing and 3D plotting.
 - [[starter-kit-protein-computational-analysis]] — Distillation of `starter_kit/protein_computational_analysis.py` thermodynamic scoring.
