@@ -4,6 +4,14 @@ Chronological audit trail of all wiki ingestions, major queries, lint checks, an
 
 ---
 
+## [2026-08-17] ingest | Strategic Integrated Oncogenomics Roadmap (`career/`) (touches 8 pages)
+- Ingested clinical oncology secondary analysis guidelines from `career/Advice_for_Bioinformatics_AZE/Strategic_Career_Roadmap_for_Bioinformatics.txt`.
+- Created source summary [wiki/summaries/integrated-bioinformatics-analysis-roadmap.md](file:///Users/macbookairm2/Documents/GitHub/Bioinformatics/wiki/summaries/integrated-bioinformatics-analysis-roadmap.md).
+- Created entities: [[GEO-TCGA]], [[STRING-Database]], [[Cytoscape]].
+- Created concepts: [[Protein-Protein-Interaction-Networks]], [[Kaplan-Meier-Survival-Analysis]], [[Tumor-Immune-Infiltration]].
+- Generated synthesis: [[End-to-End-Integrated-Oncogenomics-Framework]].
+- Updated master catalog [wiki/index.md](file:///Users/macbookairm2/Documents/GitHub/Bioinformatics/wiki/index.md).
+
 ## [2026-08-17] ingest | Bioinformatics Research Journal (`journal/`) (touches 8 pages)
 - Ingested multi-topic academic research journal logs from `journal/Bioinformatics_Research_Journal.md`.
 - Created source summary [wiki/summaries/bioinformatics-research-journal.md](file:///Users/macbookairm2/Documents/GitHub/Bioinformatics/wiki/summaries/bioinformatics-research-journal.md).
