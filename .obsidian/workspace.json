@@ -182,5 +182,19 @@
     }
   },
   "active": "c1d9fc8683fe6cc4",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "wiki/entities/Oxford-Nanopore-Sequencing.md",
+    "wiki/entities/Biopython.md",
+    "wiki/entities/AlphaFold-DB.md",
+    "wiki/entities",
+    "wiki/concepts/Miyazawa-Jernigan-Potentials.md",
+    "wiki/concepts/Kyte-Doolittle-Hydropathy.md",
+    "wiki/concepts/GC-Skew.md",
+    "wiki/concepts",
+    "wiki/log.md",
+    "wiki/index.md",
+    "wiki",
+    "GEMINI.md",
+    "AGENTS.md"
+  ]
 }
