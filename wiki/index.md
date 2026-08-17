@@ -21,7 +21,9 @@ Welcome to the compiled Bioinformatics & Computational Biology Knowledge Base.
 - [[Bio-Phylo]] — Biopython phylogenetics and evolutionary tree reconstruction module.
 - [[Bio-SeqIO]] — Biopython unified sequence input/output parser and converter.
 - [[Biopython]] — Core computational biology and bioinformatics library in Python.
+- [[BLAST]] — NCBI suite of heuristic sequence alignment search programs (`blastn`, `blastp`, `blastx`).
 - [[Cambridge-ML-Math]] — Cambridge University Mathematics of Machine Learning curriculum.
+- [[DESeq2]] — Premier R/Bioconductor package for RNA-seq differential gene expression analysis.
 - [[Genomic-Analyzer]] — CLI tool for FASTA processing, transcription/translation, and Hamming-distance SNP detection.
 - [[Insulin-1COH]] — High-resolution (1.50 Å) human insulin crystal structure used for geometric & thermodynamic benchmarking.
 - [[Nextflow-WDL]] — Declarative workflow orchestrators and nf-core reproducible pipeline infrastructure.
@@ -39,13 +41,18 @@ Welcome to the compiled Bioinformatics & Computational Biology Knowledge Base.
 - [[B-Factor-Thermal-Displacement]] — Isotropic thermal displacement factor and structural rigidity indicator.
 - [[Bias-Variance-Tradeoff]] — Mathematical decomposition of estimation error and cross-validation model selection.
 - [[Bioinformatics-Workflow-Management]] — Containerization, dataflow execution, and HPC/cloud scalability standards.
+- [[BLAST-Algorithm-Heuristics]] — Seed word matching, HSP expansion, and Karlin-Altschul E-value statistics.
 - [[Boosting-Theory-AdaBoost]] — Exponential loss minimization, discrete AdaBoost, and gradient boosted trees.
+- [[ChIP-Seq-Peak-Calling]] — Cross-correlation tag shifting, local Poisson models, and FDR peak identification.
+- [[Codon-Usage-Bias]] — Relative synonymous codon usage (RSCU) and co-translational kinetics.
+- [[Differential-Gene-Expression-DESeq2]] — Negative binomial count modeling and empirical Bayes dispersion shrinkage.
 - [[GC-Skew]] — Windowed metric for detecting replication origin/terminus in circular genomes.
 - [[Hamming-Distance-Genomics]] — Point mutation and SNP quantification metric between homologous sequences.
 - [[Kyte-Doolittle-Hydropathy]] — Sliding-window hydrophobicity scale to identify transmembrane domains and hydrophobic cores.
 - [[L1-vs-L2-High-Dimensional-Genomics]] — Lasso exact sparsity vs. Ridge shrinkage in high-dimensional $p \gg n$ biology.
 - [[Miyazawa-Jernigan-Potentials]] — Statistical residue-contact free energy matrix for structural decoy ranking.
 - [[Multiple-Sequence-Alignment]] — Algorithms and scoring matrices for multi-sequence biological homology.
+- [[Phred-Quality-Score]] — Logarithmic base-calling error probability modeling in high-throughput sequencing.
 - [[Phylogenetic-Tree-Reconstruction]] — Mathematical distance, parsimony, and likelihood tree inference.
 - [[Sequence-Motif-Discovery]] — Position Frequency/Weight Matrices and Shannon information conservation.
 - [[Solvent-Accessible-Surface-Area]] — Physical and local-density geometric approximations of solvent-accessible molecular area.
@@ -55,6 +62,7 @@ Welcome to the compiled Bioinformatics & Computational Biology Knowledge Base.
 ### 📑 Source Summaries (`wiki/summaries/`)
 *Distillations of raw literature, papers, protocols, and codebases.*
 - [[alphafold-db-programmatic-access]] — Distillation of AlphaFold Database REST API protocols and metrics.
+- [[bioinformatics-research-journal]] — Distillation of the repository's academic research journal logs.
 - [[biopython-curriculum-30-modules]] — Comprehensive 30-module Biopython training pipeline distillation.
 - [[cambridge-ml-mathematics-lectures]] — Cambridge University ML mathematical theory and R simulations distillation.
 - [[solvien-bioinformatics-workflow-management]] — Solvien Research whitepaper distillation on Nextflow, WDL, and nf-core.

@@ -4,6 +4,13 @@ Chronological audit trail of all wiki ingestions, major queries, lint checks, an
 
 ---
 
+## [2026-08-17] ingest | Bioinformatics Research Journal (`journal/`) (touches 8 pages)
+- Ingested multi-topic academic research journal logs from `journal/Bioinformatics_Research_Journal.md`.
+- Created source summary [wiki/summaries/bioinformatics-research-journal.md](file:///Users/macbookairm2/Documents/GitHub/Bioinformatics/wiki/summaries/bioinformatics-research-journal.md).
+- Created entities: [[DESeq2]], [[BLAST]].
+- Created concepts: [[Differential-Gene-Expression-DESeq2]], [[ChIP-Seq-Peak-Calling]], [[Phred-Quality-Score]], [[BLAST-Algorithm-Heuristics]], [[Codon-Usage-Bias]].
+- Updated master catalog [wiki/index.md](file:///Users/macbookairm2/Documents/GitHub/Bioinformatics/wiki/index.md).
+
 ## [2026-08-17] ingest | Cambridge ML Mathematics & Scientific Literature (touches 11 pages)
 - Ingested `courses/cambridge_ml_math/` R lecture series.
 - Ingested `Introduction-to-AlphaFold-Database-programmatic-access.pdf` and `The Future of Bioinformatics Workflow Management and Scientific Computing - Solvien Research v0.4.pdf`.
