@@ -4,6 +4,13 @@ Chronological audit trail of all wiki ingestions, major queries, lint checks, an
 
 ---
 
+## [2026-08-17] ingest | 30-Module Biopython Curriculum (`courses/biopython/`) (touches 9 pages)
+- Ingested 30 computational biology notebook modules from `courses/biopython/`.
+- Created source summary [wiki/summaries/biopython-curriculum-30-modules.md](file:///Users/macbookairm2/Documents/GitHub/Bioinformatics/wiki/summaries/biopython-curriculum-30-modules.md).
+- Created specialized Biopython sub-module entities: [[Bio-SeqIO]], [[Bio-PDB]], [[Bio-Entrez]], [[Bio-Phylo]], [[Bio-AlignIO]].
+- Created algorithmic concepts: [[Multiple-Sequence-Alignment]], [[Phylogenetic-Tree-Reconstruction]], [[Sequence-Motif-Discovery]].
+- Updated master catalog [wiki/index.md](file:///Users/macbookairm2/Documents/GitHub/Bioinformatics/wiki/index.md).
+
 ## [2026-08-17] ingest | Starter Kit Codebase (`starter_kit/`) (touches 14 pages)
 - Ingested `starter_kit/genomic_analyzer.py`, `starter_kit/protein_3d_metrics.py`, and `starter_kit/protein_computational_analysis.py`.
 - Generated source summaries in [wiki/summaries/](file:///Users/macbookairm2/Documents/GitHub/Bioinformatics/wiki/summaries/).
